@@ -1,0 +1,764 @@
+<svg id="_sense_hat_bottom_" x="0px" y="0px" viewBox="22 0 460 445" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <style>
+              .apbcls-1 {
+                isolation: isolate;
+              }
+
+              .apbcls-2 {
+                fill: #ccc;
+              }
+
+              .apbcls-19, .apbcls-2, .apbcls-21, .apbcls-25, .apbcls-27, .apbcls-29, .apbcls-3, .apbcls-31, .apbcls-37, .apbcls-4, .apbcls-43, .apbcls-45, .apbcls-47, .apbcls-49, .apbcls-51, .apbcls-53, .apbcls-55, .apbcls-57 {
+                stroke: #999;
+              }
+
+              .apbcls-13, .apbcls-15, .apbcls-16, .apbcls-17, .apbcls-18, .apbcls-19, .apbcls-2, .apbcls-20, .apbcls-21, .apbcls-23, .apbcls-24, .apbcls-25, .apbcls-26, .apbcls-27, .apbcls-28, .apbcls-29, .apbcls-3, .apbcls-30, .apbcls-31, .apbcls-32, .apbcls-36, .apbcls-37, .apbcls-39, .apbcls-4, .apbcls-40, .apbcls-41, .apbcls-42, .apbcls-43, .apbcls-44, .apbcls-45, .apbcls-46, .apbcls-47, .apbcls-48, .apbcls-49, .apbcls-50, .apbcls-51, .apbcls-52, .apbcls-53, .apbcls-54, .apbcls-55, .apbcls-56, .apbcls-57, .apbcls-58, .apbcls-7 {
+                stroke-miterlimit: 10;
+              }
+
+              .apbcls-15, .apbcls-19, .apbcls-2, .apbcls-20, .apbcls-21, .apbcls-23, .apbcls-24, .apbcls-27, .apbcls-28, .apbcls-31, .apbcls-32, .apbcls-36, .apbcls-37, .apbcls-39, .apbcls-4, .apbcls-40, .apbcls-41, .apbcls-42, .apbcls-45, .apbcls-46, .apbcls-49, .apbcls-50, .apbcls-53, .apbcls-54, .apbcls-57, .apbcls-58 {
+                stroke-width: 1.15px;
+              }
+
+              .apbcls-3 {
+                fill: #e6e6e6;
+              }
+
+              .apbcls-4 {
+                fill: url(#linear-gradient);
+              }
+
+              .apbcls-5 {
+                fill: url(#linear-gradient-2);
+              }
+
+              .apbcls-6 {
+                opacity: 0.2;
+                mix-blend-mode: darken;
+              }
+
+              .apbcls-7 {
+                stroke: #e1ccbc;
+                stroke-width: 1.64px;
+                fill: url(#linear-gradient-3);
+              }
+
+              .apbcls-14, .apbcls-8 {
+                opacity: 0.3;
+              }
+
+              .apbcls-8 {
+                mix-blend-mode: multiply;
+              }
+
+              .apbcls-9 {
+                fill: #ca8c33;
+              }
+
+              .apbcls-10, .apbcls-14 {
+                fill: #fff;
+              }
+
+              .apbcls-11 {
+                fill: #f6f6f6;
+              }
+
+              .apbcls-12 {
+                fill: #edd5bd;
+              }
+
+              .apbcls-13, .apbcls-15, .apbcls-16, .apbcls-17, .apbcls-18 {
+                fill: #c1272d;
+                stroke: #71272d;
+              }
+
+              .apbcls-13 {
+                stroke-width: 0.87px;
+              }
+
+              .apbcls-16 {
+                stroke-width: 0.89px;
+              }
+
+              .apbcls-17 {
+                stroke-width: 0.96px;
+              }
+
+              .apbcls-18 {
+                stroke-width: 1.05px;
+              }
+
+              .apbcls-19 {
+                fill: url(#linear-gradient-4);
+              }
+
+              .apbcls-20, .apbcls-23, .apbcls-24, .apbcls-26, .apbcls-28, .apbcls-30, .apbcls-32, .apbcls-36, .apbcls-39, .apbcls-40, .apbcls-41, .apbcls-42, .apbcls-44, .apbcls-46, .apbcls-48, .apbcls-50, .apbcls-52, .apbcls-54, .apbcls-56, .apbcls-58 {
+                stroke: #666;
+              }
+
+              .apbcls-20 {
+                fill: url(#linear-gradient-5);
+              }
+
+              .apbcls-21 {
+                fill: url(#linear-gradient-6);
+              }
+
+              .apbcls-22 {
+                fill: url(#linear-gradient-7);
+              }
+
+              .apbcls-23 {
+                fill: url(#linear-gradient-8);
+              }
+
+              .apbcls-24 {
+                fill: url(#linear-gradient-9);
+              }
+
+              .apbcls-25, .apbcls-26, .apbcls-29, .apbcls-30, .apbcls-43, .apbcls-44, .apbcls-47, .apbcls-48, .apbcls-55, .apbcls-56 {
+                stroke-width: 0.91px;
+              }
+
+              .apbcls-25 {
+                fill: url(#radial-gradient);
+              }
+
+              .apbcls-26 {
+                fill: url(#radial-gradient-2);
+              }
+
+              .apbcls-27 {
+                fill: url(#radial-gradient-3);
+              }
+
+              .apbcls-28 {
+                fill: url(#radial-gradient-4);
+              }
+
+              .apbcls-29 {
+                fill: url(#radial-gradient-5);
+              }
+
+              .apbcls-30 {
+                fill: url(#radial-gradient-6);
+              }
+
+              .apbcls-31 {
+                fill: url(#radial-gradient-7);
+              }
+
+              .apbcls-32 {
+                fill: url(#radial-gradient-8);
+              }
+
+              .apbcls-33 {
+                opacity: 0.4;
+              }
+
+              .apbcls-34, .apbcls-36 {
+                opacity: 0.6;
+              }
+
+              .apbcls-35 {
+                fill: #666;
+              }
+
+              .apbcls-36 {
+                fill: none;
+              }
+
+              .apbcls-37 {
+                fill: url(#linear-gradient-10);
+              }
+
+              .apbcls-38 {
+                fill: url(#linear-gradient-11);
+              }
+
+              .apbcls-39 {
+                fill: url(#linear-gradient-12);
+              }
+
+              .apbcls-40 {
+                fill: url(#linear-gradient-13);
+              }
+
+              .apbcls-41 {
+                fill: url(#linear-gradient-14);
+              }
+
+              .apbcls-42 {
+                fill: url(#linear-gradient-15);
+              }
+
+              .apbcls-43 {
+                fill: url(#radial-gradient-9);
+              }
+
+              .apbcls-44 {
+                fill: url(#radial-gradient-10);
+              }
+
+              .apbcls-45 {
+                fill: url(#radial-gradient-11);
+              }
+
+              .apbcls-46 {
+                fill: url(#radial-gradient-12);
+              }
+
+              .apbcls-47 {
+                fill: url(#radial-gradient-13);
+              }
+
+              .apbcls-48 {
+                fill: url(#radial-gradient-14);
+              }
+
+              .apbcls-49 {
+                fill: url(#radial-gradient-15);
+              }
+
+              .apbcls-50 {
+                fill: url(#radial-gradient-16);
+              }
+
+              .apbcls-51, .apbcls-52 {
+                stroke-width: 0.91px;
+              }
+
+              .apbcls-51 {
+                fill: url(#radial-gradient-17);
+              }
+
+              .apbcls-52 {
+                fill: url(#radial-gradient-18);
+              }
+
+              .apbcls-53 {
+                fill: url(#radial-gradient-19);
+              }
+
+              .apbcls-54 {
+                fill: url(#radial-gradient-20);
+              }
+
+              .apbcls-55 {
+                fill: url(#radial-gradient-21);
+              }
+
+              .apbcls-56 {
+                fill: url(#radial-gradient-22);
+              }
+
+              .apbcls-57 {
+                fill: url(#radial-gradient-23);
+              }
+
+              .apbcls-58 {
+                fill: url(#radial-gradient-24);
+              }
+            </style>
+            <style>
+              .shcls-1, .shcls-11, .shcls-14, .shcls-17, .shcls-23, .shcls-26, .shcls-8 {
+                fill: none;
+              }
+
+              .shcls-12, .shcls-2, .shcls-20 {
+                fill: #4d4d4d;
+              }
+
+              .shcls-12, .shcls-2, .shcls-23, .shcls-26, .shcls-3 {
+                stroke: #333;
+              }
+
+              .shcls-11, .shcls-12, .shcls-14, .shcls-15, .shcls-16, .shcls-17, .shcls-18, .shcls-2, .shcls-23, .shcls-26, .shcls-3, .shcls-8 {
+                stroke-miterlimit: 10;
+              }
+
+              .shcls-2, .shcls-23 {
+                stroke-width: 1.43px;
+              }
+
+              .shcls-13, .shcls-18, .shcls-3 {
+                fill: #b3b3b3;
+              }
+
+              .shcls-19, .shcls-4 {
+                isolation: isolate;
+              }
+
+              .shcls-16, .shcls-5 {
+                fill: #e6e6e6;
+              }
+
+              .shcls-6 {
+                clip-path: url(#clip-path);
+              }
+
+              .shcls-19, .shcls-25, .shcls-7 {
+                fill: #fff;
+              }
+
+              .shcls-7 {
+                fill-opacity: 0.25;
+              }
+
+              .shcls-11, .shcls-14, .shcls-16, .shcls-18, .shcls-8 {
+                stroke: #666;
+              }
+
+              .shcls-8 {
+                stroke-width: 1.13px;
+              }
+
+              .shcls-9 {
+                clip-path: url(#clip-path-3);
+              }
+
+              .shcls-10 {
+                clip-path: url(#clip-path-5);
+              }
+
+              .shcls-11, .shcls-16 {
+                stroke-width: 1.11px;
+              }
+
+              .shcls-12, .shcls-14 {
+                stroke-width: 1.06px;
+              }
+
+              .shcls-15 {
+                fill: #309a5d;
+                stroke: #004537;
+                stroke-width: 2.2px;
+              }
+
+              .shcls-17 {
+                stroke: #ffdb13;
+                stroke-width: 5.82px;
+              }
+
+              .shcls-18 {
+                stroke-width: 0.9px;
+              }
+
+              .shcls-19 {
+                opacity: 0.25;
+              }
+
+              .shcls-21 {
+                clip-path: url(#clip-path-7);
+              }
+
+              .shcls-22 {
+                opacity: 0.15;
+                mix-blend-mode: darken;
+              }
+
+              .shcls-24 {
+                clip-path: url(#clip-path-8);
+              }
+
+              .shcls-25 {
+                fill-opacity: 0.1;
+              }
+            </style>
+            <clipPath id="clip-path">
+              <rect class="cls-1" x="367.89" y="251.94" width="93.28" height="117.89" transform="translate(101.66 723.93) rotate(-89.72)"></rect>
+            </clipPath>
+            <clipPath id="clip-path-3">
+              <rect class="cls-1" x="368.38" y="150.67" width="93.28" height="117.89" transform="translate(203.41 623.63) rotate(-89.72)"></rect>
+            </clipPath>
+            <clipPath id="clip-path-5">
+              <rect class="cls-1" x="369.19" y="47.13" width="93.28" height="118.52" transform="translate(307.45 521.7) rotate(-89.72)"></rect>
+            </clipPath>
+            <clipPath id="clip-path-7">
+              <rect id="_Rectangle_" class="cls-2" x="20.83" y="180.23" width="70.17" height="54.17" rx="2.92" ry="2.92"></rect>
+            </clipPath>
+            <clipPath id="clip-path-8">
+              <polygon id="_Clipping_Path_" class="cls-3" points="30.53 178.98 101.66 178.98 101.66 238.73 30.53 238.73 30.53 224.29 34.16 224.29 50.16 219.35 50.16 182.27 30.56 182.27 30.53 178.98"></polygon>
+            </clipPath>
+            <style>
+              .apbcls-1, .apbcls-6 {
+                fill: #4d4d4d;
+              }
+
+              .apbcls-1, .apbcls-12, .apbcls-9 {
+                stroke: #333;
+              }
+
+              .apbcls-1, .apbcls-10, .apbcls-11, .apbcls-12, .apbcls-13, .apbcls-14, .apbcls-3, .apbcls-4, .apbcls-5, .apbcls-9 {
+                stroke-miterlimit: 10;
+              }
+
+              .apbcls-1, .apbcls-9 {
+                stroke-width: 1.22px;
+              }
+
+              .apbcls-2 {
+                isolation: isolate;
+              }
+
+              .apbcls-3 {
+                fill: #ccc;
+              }
+
+              .apbcls-14, .apbcls-3, .apbcls-4, .apbcls-5 {
+                stroke: #999;
+              }
+
+              .apbcls-11, .apbcls-12, .apbcls-3 {
+                stroke-width: 1.15px;
+              }
+
+              .apbcls-4 {
+                fill: #e6e6e6;
+              }
+
+              .apbcls-11, .apbcls-14, .apbcls-5 {
+                fill: #b3b3b3;
+              }
+
+              .apbcls-5 {
+                stroke-width: 1.34px;
+              }
+
+              .apbcls-7 {
+                clip-path: url(#clip-path);
+              }
+
+              .apbcls-8 {
+                opacity: 0.15;
+                mix-blend-mode: darken;
+              }
+
+              .apbcls-9 {
+                fill: none;
+              }
+
+              .apbcls-10, .apbcls-13 {
+                fill: #122b2f;
+              }
+
+              .apbcls-10, .apbcls-11, .apbcls-13 {
+                stroke: #666;
+              }
+
+              .apbcls-10 {
+                stroke-width: 0.74px;
+              }
+
+              .apbcls-12 {
+                fill: #666;
+              }
+
+              .apbcls-13 {
+                stroke-width: 0.57px;
+              }
+
+              .apbcls-14 {
+                stroke-width: 1.34px;
+              }
+
+              .hide {
+                display: none;
+              }
+            </style>
+          </defs>
+          <g id="_sense_hat_back_" class="hide">
+              <g id="inputs" transform="matrix(1, 0, 0, 1, 4.428691, 28.0341)">
+            <g>
+              <g>
+                <rect id="_Path_" class="shcls-5" x="367.89" y="251.94" width="93.28" height="117.89" transform="translate(101.66 723.93) rotate(-89.72)"></rect>
+                <g class="shcls-6">
+                  <path class="shcls-7" d="M482.48,306.42c-.56.35-73.42,79.77-73.42,79.77L385,374.84,480.4,272Z"></path>
+                </g>
+                <g class="shcls-6">
+                  <path class="shcls-7" d="M462.27,264.22c-.76.47-99.3,107.89-99.3,107.89l-32.6-15.35,129.09-139Z"></path>
+                </g>
+                <rect id="_Path_2" class="shcls-8" x="367.89" y="251.94" width="93.28" height="117.89" transform="translate(101.66 723.93) rotate(-89.72)"></rect>
+              </g>
+              <g>
+                <rect id="_Path_3" class="shcls-5" x="368.38" y="150.67" width="93.28" height="117.89" transform="translate(203.41 623.63) rotate(-89.72)"></rect>
+                <g class="shcls-9">
+                  <path class="shcls-7" d="M490.7,232.31c-.56.35-73.42,79.77-73.42,79.77l-24.1-11.35,95.44-102.79Z"></path>
+                </g>
+                <g class="shcls-9">
+                  <path class="shcls-7" d="M470.49,190.1c-.76.47-99.3,107.89-99.3,107.89l-32.6-15.35,129.09-139Z"></path>
+                </g>
+                <rect id="_Path_4" class="shcls-8" x="368.38" y="150.67" width="93.28" height="117.89" transform="translate(203.41 623.63) rotate(-89.72)"></rect>
+              </g>
+              <g>
+                <rect id="_Path_5" class="shcls-5" x="369.19" y="47.13" width="93.28" height="118.52" transform="translate(307.45 521.7) rotate(-89.72)"></rect>
+                <g class="shcls-10">
+                  <path class="shcls-7" d="M481.9,75.92c-.76.47-99.3,107.89-99.3,107.89L350,168.46l129.09-139Z"></path>
+                </g>
+                <g class="shcls-10">
+                  <path class="shcls-7" d="M438.6,46.5c-.76.47-99.3,107.89-99.3,107.89L306.7,139,435.78,0Z"></path>
+                </g>
+                <rect id="_Path_6" class="shcls-11" x="369.19" y="47.13" width="93.28" height="118.52" transform="translate(307.45 521.7) rotate(-89.72)"></rect>
+              </g>
+              <path class="shcls-12" d="M326.47,58.95l.06,12.67c0,1.26-1.44,2.28-3.23,2.28h-25c-1.79,0-3.24-1-3.25-2.28L295,58.94c0-1.26,1.44-2.28,3.23-2.28h25C325,56.67,326.47,57.69,326.47,58.95Z"></path>
+              <polygon class="shcls-12" points="256.98 59.06 272.93 59.04 272.99 78.66 283.48 84.35 283.55 113.38 283.55 115.22 283.62 146.26 273.13 149.96 273.19 169.58 257.24 169.6 257.11 115.25 257.11 113.41 256.98 59.06"></polygon>
+              <g>
+                <path id="_Path_7" class="shcls-13" d="M116,85.3,116,61.71a2.14,2.14,0,0,0-2.22-2l-35.47,0a2.14,2.14,0,0,0-2.21,2l.06,23.59a2.14,2.14,0,0,0,2.22,2l35.47,0A2.14,2.14,0,0,0,116,85.3Z"></path>
+                <path id="_Path_8" class="shcls-11" d="M116,85.3,116,61.71a2.14,2.14,0,0,0-2.22-2l-35.47,0a2.14,2.14,0,0,0-2.21,2l.06,23.59a2.14,2.14,0,0,0,2.22,2l35.47,0A2.14,2.14,0,0,0,116,85.3Z"></path>
+              </g>
+              <g>
+                <path id="_Path_9" class="shcls-13" d="M208.47,117.11,208.34,62a2.14,2.14,0,0,0-2.22-2l-69.62.09a2.14,2.14,0,0,0-2.21,2l.13,55.08a2.14,2.14,0,0,0,2.22,2l69.62-.09A2.14,2.14,0,0,0,208.47,117.11Z"></path>
+                <path id="_Path_10" class="shcls-14" d="M208.47,117.11,208.34,62a2.14,2.14,0,0,0-2.22-2l-69.62.09a2.14,2.14,0,0,0-2.21,2l.13,55.08a2.14,2.14,0,0,0,2.22,2l69.62-.09A2.14,2.14,0,0,0,208.47,117.11Z"></path>
+              </g>
+            </g>
+          </g>
+          <g id="board" transform="matrix(1, 0, 0, 1, 4.428691, 28.0341)">
+            <path class="shcls-15" d="M452.05,335.35l-.44-243.6a28.12,28.12,0,0,0-28.08-28l-376.08.67a28.12,28.12,0,0,0-28,28.08l.44,243.6A28.12,28.12,0,0,0,48,364.1l376.08-.68A28.12,28.12,0,0,0,452.05,335.35ZM54.82,343.56A12.53,12.53,0,1,1,42.27,331,12.53,12.53,0,0,1,54.82,343.56ZM348.45,343a12.53,12.53,0,1,1-12.55-12.51A12.53,12.53,0,0,1,348.45,343Zm-1-258a12.53,12.53,0,1,1-12.55-12.51A12.53,12.53,0,0,1,347.46,85Zm-293.1.87A12.53,12.53,0,1,1,41.81,73.41,12.53,12.53,0,0,1,54.36,85.92Z"></path>
+          </g>
+          <g id="solder" transform="matrix(1, 0, 0, 1, 4.428691, 28.0341)">
+            <g>
+              <circle class="shcls-16" cx="66.95" cy="337.42" r="3.94"></circle>
+              <circle class="shcls-16" cx="79.83" cy="337.42" r="3.94"></circle>
+              <circle class="shcls-16" cx="92.7" cy="337.42" r="3.94"></circle>
+              <circle class="shcls-16" cx="105.58" cy="337.42" r="3.94"></circle>
+              <circle class="shcls-16" cx="118.45" cy="337.42" r="3.94"></circle>
+              <circle class="shcls-16" cx="131.33" cy="337.42" r="3.94"></circle>
+              <circle class="shcls-16" cx="144.2" cy="337.42" r="3.94"></circle>
+              <circle class="shcls-16" cx="157.08" cy="337.42" r="3.94"></circle>
+              <circle class="shcls-16" cx="169.95" cy="337.42" r="3.94"></circle>
+              <circle class="shcls-16" cx="182.83" cy="337.42" r="3.94"></circle>
+              <circle class="shcls-16" cx="195.7" cy="337.42" r="3.94"></circle>
+              <circle class="shcls-16" cx="208.58" cy="337.42" r="3.94"></circle>
+              <circle class="shcls-16" cx="221.45" cy="337.42" r="3.94"></circle>
+              <circle class="shcls-16" cx="234.33" cy="337.42" r="3.94"></circle>
+              <circle class="shcls-16" cx="247.2" cy="337.42" r="3.94"></circle>
+              <circle class="shcls-16" cx="260.08" cy="337.42" r="3.94"></circle>
+              <circle class="shcls-16" cx="272.95" cy="337.42" r="3.94"></circle>
+              <circle class="shcls-16" cx="285.83" cy="337.42" r="3.94"></circle>
+              <circle class="shcls-16" cx="298.7" cy="337.42" r="3.94"></circle>
+              <circle class="shcls-16" cx="311.58" cy="337.42" r="3.94"></circle>
+            </g>
+            <g>
+              <circle class="shcls-16" cx="66.95" cy="348.72" r="3.94"></circle>
+              <circle class="shcls-16" cx="79.83" cy="348.72" r="3.94"></circle>
+              <circle class="shcls-16" cx="92.7" cy="348.72" r="3.94"></circle>
+              <circle class="shcls-16" cx="105.58" cy="348.72" r="3.94"></circle>
+              <circle class="shcls-16" cx="118.45" cy="348.72" r="3.94"></circle>
+              <circle class="shcls-16" cx="131.33" cy="348.72" r="3.94"></circle>
+              <circle class="shcls-16" cx="144.2" cy="348.72" r="3.94"></circle>
+              <circle class="shcls-16" cx="157.08" cy="348.72" r="3.94"></circle>
+              <circle class="shcls-16" cx="169.95" cy="348.72" r="3.94"></circle>
+              <circle class="shcls-16" cx="182.83" cy="348.72" r="3.94"></circle>
+              <circle class="shcls-16" cx="195.7" cy="348.72" r="3.94"></circle>
+              <circle class="shcls-16" cx="208.58" cy="348.72" r="3.94"></circle>
+              <circle class="shcls-16" cx="221.45" cy="348.72" r="3.94"></circle>
+              <circle class="shcls-16" cx="234.33" cy="348.72" r="3.94"></circle>
+              <circle class="shcls-16" cx="247.2" cy="348.72" r="3.94"></circle>
+              <circle class="shcls-16" cx="260.08" cy="348.72" r="3.94"></circle>
+              <circle class="shcls-16" cx="272.95" cy="348.72" r="3.94"></circle>
+              <circle class="shcls-16" cx="285.83" cy="348.72" r="3.94"></circle>
+              <circle class="shcls-16" cx="298.7" cy="348.72" r="3.94"></circle>
+              <circle class="shcls-16" cx="311.58" cy="348.72" r="3.94"></circle>
+            </g>
+            <circle class="shcls-16" cx="405.72" cy="347.12" r="7.76"></circle>
+            <circle class="shcls-16" cx="378.99" cy="347.12" r="7.76"></circle>
+            <circle class="shcls-16" cx="405.72" cy="242.06" r="7.76"></circle>
+            <circle class="shcls-16" cx="378.99" cy="242.06" r="7.76"></circle>
+            <circle class="shcls-16" cx="405.72" cy="142.4" r="7.76"></circle>
+            <circle class="shcls-16" cx="378.99" cy="142.4" r="7.76"></circle>
+          </g>
+          <g id="holes" transform="matrix(1, 0, 0, 1, 4.428691, 28.0341)">
+            <g>
+              <circle class="shcls-17" cx="335.75" cy="343.1" r="11.24" transform="translate(-1.64 1.62) rotate(-0.28)"></circle>
+              <circle class="shcls-18" cx="335.71" cy="343.28" r="12"></circle>
+              <path class="shcls-19" d="M343.7,344l-.55-.65c-.33-.41-.79-1-1.29-1.63l-1.7-2.09c-.29-.38-.59-.76-.9-1.15a5.61,5.61,0,0,0-1.12-1,6.08,6.08,0,0,0-1.33-.74,3,3,0,0,0-.71-.25l-.73-.21c-.49-.11-1-.11-1.45-.18a9.19,9.19,0,0,0-1.34,0,5.6,5.6,0,0,0-1.15.11l-.89.16-.79.14-.1-.25.74-.34.86-.38a6.11,6.11,0,0,1,1.17-.39,10.47,10.47,0,0,1,1.44-.34,15.53,15.53,0,0,1,1.69-.12,9.62,9.62,0,0,1,1.84.24,8.12,8.12,0,0,1,1.83.66,11.37,11.37,0,0,1,1.71,1,7.7,7.7,0,0,1,1.42,1.27,6.81,6.81,0,0,1,.93,1.48,8,8,0,0,1,.54,1.45,8.8,8.8,0,0,1,.24,1.27,6.6,6.6,0,0,1,0,1,3.9,3.9,0,0,1-.11.88Z"></path>
+            </g>
+            <g>
+              <circle class="shcls-17" cx="335.75" cy="85.34" r="11.24" transform="translate(-0.41 1.61) rotate(-0.28)"></circle>
+              <circle class="shcls-18" cx="335.71" cy="85.53" r="12"></circle>
+              <path class="shcls-19" d="M343.7,86.25l-.55-.65c-.33-.41-.79-1-1.29-1.63l-1.7-2.09c-.29-.38-.59-.76-.9-1.15a5.61,5.61,0,0,0-1.12-1,6.08,6.08,0,0,0-1.33-.74,3,3,0,0,0-.71-.25l-.73-.21c-.49-.11-1-.11-1.45-.18a9.19,9.19,0,0,0-1.34,0,5.6,5.6,0,0,0-1.15.11l-.89.16-.79.14-.1-.25.74-.34.86-.38a6.11,6.11,0,0,1,1.17-.39,10.47,10.47,0,0,1,1.44-.34,15.53,15.53,0,0,1,1.69-.12,9.62,9.62,0,0,1,1.84.24,8.12,8.12,0,0,1,1.83.66,11.37,11.37,0,0,1,1.71,1,7.7,7.7,0,0,1,1.42,1.27,6.81,6.81,0,0,1,.93,1.48,8,8,0,0,1,.54,1.45A8.8,8.8,0,0,1,344,84.3a6.6,6.6,0,0,1,0,1,3.9,3.9,0,0,1-.11.88Z"></path>
+            </g>
+            <g>
+              <circle class="shcls-17" cx="42.18" cy="85.94" r="11.24" transform="translate(-0.41 0.2) rotate(-0.28)"></circle>
+              <circle class="shcls-18" cx="42.13" cy="86.13" r="12"></circle>
+              <path class="shcls-19" d="M50.12,86.85l-.55-.65c-.33-.41-.79-1-1.29-1.63l-1.7-2.09c-.29-.38-.59-.76-.9-1.15a5.61,5.61,0,0,0-1.12-1,6.08,6.08,0,0,0-1.33-.74,3,3,0,0,0-.71-.25l-.73-.21c-.49-.11-1-.11-1.45-.18A9.19,9.19,0,0,0,39,79a5.6,5.6,0,0,0-1.15.11l-.89.16-.79.14-.1-.25.74-.34.86-.38A6.11,6.11,0,0,1,38.84,78a10.47,10.47,0,0,1,1.44-.34A15.53,15.53,0,0,1,42,77.54a9.62,9.62,0,0,1,1.84.24,8.12,8.12,0,0,1,1.83.66,11.37,11.37,0,0,1,1.71,1,7.7,7.7,0,0,1,1.42,1.27,6.81,6.81,0,0,1,.93,1.48,8,8,0,0,1,.54,1.45,8.8,8.8,0,0,1,.24,1.27,6.6,6.6,0,0,1,0,1,3.9,3.9,0,0,1-.11.88Z"></path>
+            </g>
+            <g>
+              <circle class="shcls-17" cx="42.58" cy="343.11" r="11.24" transform="translate(-1.65 0.21) rotate(-0.28)"></circle>
+              <circle class="shcls-18" cx="42.53" cy="343.3" r="12"></circle>
+              <path class="shcls-19" d="M50.52,344l-.55-.65c-.33-.41-.79-1-1.29-1.63L47,339.64c-.29-.38-.59-.76-.9-1.15a5.61,5.61,0,0,0-1.12-1,6.08,6.08,0,0,0-1.33-.74,3,3,0,0,0-.71-.25l-.73-.21c-.49-.11-1-.11-1.45-.18a9.19,9.19,0,0,0-1.34,0,5.6,5.6,0,0,0-1.15.11l-.89.16-.79.14-.1-.25.74-.34.86-.38a6.11,6.11,0,0,1,1.17-.39,10.47,10.47,0,0,1,1.44-.34,15.53,15.53,0,0,1,1.69-.12,9.62,9.62,0,0,1,1.84.24,8.12,8.12,0,0,1,1.83.66,11.37,11.37,0,0,1,1.71,1,7.7,7.7,0,0,1,1.42,1.27,6.81,6.81,0,0,1,.93,1.48,8,8,0,0,1,.54,1.45,8.8,8.8,0,0,1,.24,1.27,6.6,6.6,0,0,1,0,1,3.9,3.9,0,0,1-.11.88Z"></path>
+            </g>
+          </g>
+          <g id="SD-card" transform="matrix(1, 0, 0, 1, 4.428691, 28.0341)">
+            <g>
+              <rect id="_Rectangle_2" class="shcls-20" x="20.83" y="180.23" width="70.17" height="54.17" rx="2.92" ry="2.92"></rect>
+              <g class="shcls-21">
+                <path class="shcls-2" d="M20.83,175.56s8.85.58,8.85,33.29-8.85,35.88-8.85,35.88"></path>
+                <rect class="shcls-22" x="43.41" y="181.23" width="53.23" height="56.25"></rect>
+              </g>
+              <rect id="_Rectangle_3" class="shcls-23" x="20.83" y="180.23" width="70.17" height="54.17" rx="2.92" ry="2.92"></rect>
+            </g>
+          </g>
+          <g id="SD-port" transform="matrix(1, 0, 0, 1, 4.428691, 28.0341)">
+            <g>
+              <polygon id="_Clipping_Path_2" class="shcls-13" points="30.53 178.98 101.66 178.98 101.66 238.73 30.53 238.73 30.53 224.29 34.16 224.29 50.16 219.35 50.16 182.27 30.56 182.27 30.53 178.98"></polygon>
+              <g class="shcls-24">
+                <path class="shcls-25" d="M98.94,162.61c-.57.38-74.48,88.72-74.48,88.72L0,238.71,96.83,124.38Z"></path>
+                <path class="shcls-25" d="M135.43,203.72c-.57.38-74.48,88.72-74.48,88.72L36.49,279.82l96.83-114.34Z"></path>
+              </g>
+              <polygon id="_Clipping_Path_3" class="shcls-26" points="30.53 178.98 101.66 178.98 101.66 238.73 30.53 238.73 30.53 224.29 34.16 224.29 50.16 219.35 50.16 182.27 30.56 182.27 30.53 178.98"></polygon>
+            </g>
+          </g>
+          <g id="chip" transform="matrix(1, 0, 0, 1, 4.428691, 28.0341)">
+            <rect class="shcls-12" x="206.66" y="218.73" width="59.33" height="59.33"></rect>
+          </g>
+          </g>
+          <g id="_astro_pi_back_" class="apbcls-2" transform="matrix(0, -1.000001, 1.000001, 0, 52.486023, 441.143219)">
+            <g id="g-66">
+              <rect class="apbcls-3" x="-2.46" y="340.22" width="82.59" height="42.27" rx="21.14" ry="21.14" transform="translate(-199.24 86.76) rotate(-34.79)"></rect>
+              <rect class="apbcls-3" x="-4.42" y="14.48" width="82.59" height="42.27" rx="21.14" ry="21.14" transform="translate(32.58 -15.47) rotate(41.19)"></rect>
+              <rect class="apbcls-3" x="314.87" y="339.57" width="82.59" height="42.27" rx="21.14" ry="21.14" transform="matrix(-0.82, -0.57, 0.57, -0.82, 442.84, 860.16)"></rect>
+              <rect class="apbcls-3" x="314.87" y="12.08" width="82.59" height="42.27" rx="21.14" ry="21.14" transform="translate(44.72 209.16) rotate(-34.79)"></rect>
+              <g>
+                <circle class="apbcls-4" cx="377.85" cy="376.83" r="8"></circle>
+                <polygon class="apbcls-3" points="380.42 372.59 375.52 372.59 373.07 376.83 375.52 381.08 380.42 381.08 382.88 376.83 380.42 372.59"></polygon>
+              </g>
+              <g>
+                <circle class="apbcls-4" cx="16.56" cy="376.83" r="8"></circle>
+                <polygon class="apbcls-3" points="19.14 372.59 14.23 372.59 11.78 376.83 14.23 381.08 19.14 381.08 21.59 376.83 19.14 372.59"></polygon>
+              </g>
+              <g>
+                <circle class="apbcls-4" cx="377.85" cy="16.48" r="8"></circle>
+                <polygon class="apbcls-3" points="380.42 12.23 375.52 12.23 373.07 16.48 375.52 20.72 380.42 20.72 382.88 16.48 380.42 12.23"></polygon>
+              </g>
+              <g>
+                <circle class="apbcls-4" cx="16.96" cy="17.48" r="8"></circle>
+                <polygon class="apbcls-3" points="19.54 13.23 14.63 13.23 12.18 17.48 14.63 21.72 19.54 21.72 21.99 17.48 19.54 13.23"></polygon>
+              </g>
+            </g>
+            <g id="g-67" class="hide">
+              <rect class="apbcls-5" x="87.84" y="345.83" width="69.25" height="32.47"></rect>
+            </g>
+            <g id="g-68" class="hide">
+              <g>
+                <rect id="rect-1" class="apbcls-6" x="94.04" y="310.95" width="59.59" height="46" rx="2.48" ry="2.48" transform="translate(-210.11 457.78) rotate(-90)"></rect>
+                <g class="apbcls-7">
+                  <path class="apbcls-1" d="M96.87,363.74s.5-7.52,28.27-7.52,30.47,7.52,30.47,7.52"></path>
+                  <rect class="apbcls-8" x="101.69" y="325.3" width="47.77" height="19.26"></rect>
+                </g>
+                <rect id="rect-2" class="apbcls-9" x="94.04" y="310.95" width="59.59" height="46" rx="2.48" ry="2.48" transform="translate(-210.11 457.78) rotate(-90)"></rect>
+              </g>
+            </g>
+            <g id="g-69" class="hide">
+              <path class="apbcls-3" d="M392.95,99.44a14.06,14.06,0,0,1-14.06-14.06V31.21c-22.07,0-17.81-14.92-17.81-14.92H34.34C33.09,33,15.87,31.71,15.87,31.71V357.83s17.22,3,17.22,20.33h60V367.33h7.84a4.55,4.55,0,0,0,4.45-3.64,17.6,17.6,0,0,1,34.43,0,4.55,4.55,0,0,0,4.45,3.64h7.84v10.83H358.34s-.64-19.83,20.56-19.83v-46.7a14.06,14.06,0,0,1,14.05-14.34H415.4V99.44Z"></path>
+              <path class="apbcls-4" d="M403.23,99.44h18.67v69.67a1.44,1.44,0,0,0,1.44,1.44h7.72a1.44,1.44,0,0,0,1.44-1.44v-9.22h6.31v78.6h-7.17V226.56a1.44,1.44,0,0,0-1.44-1.44h-6.86a1.44,1.44,0,0,0-1.44,1.44V297.3l-18,.13Z"></path>
+              <circle class="apbcls-10" cx="224.91" cy="223.11" r="5.5" transform="translate(-91.89 224.38) rotate(-45)"></circle>
+            </g>
+            <g id="g-70" class="hide">
+              <g>
+                <circle class="apbcls-11" cx="196.25" cy="197.22" r="12.29"></circle>
+                <circle class="apbcls-12" cx="196.25" cy="197.22" r="8.5"></circle>
+                <circle class="apbcls-13" cx="196.25" cy="197.22" r="3.56"></circle>
+              </g>
+            </g>
+            <g id="grid" class="hide">
+              <g>
+                <rect class="apbcls-5" x="238.36" y="16.28" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="275.43" y="16.28" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="312.49" y="16.28" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="90.11" y="16.28" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="127.18" y="16.28" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="53.05" y="16.28" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="164.24" y="16.28" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="201.3" y="16.28" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="238.36" y="53.68" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="275.43" y="53.68" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="312.49" y="53.68" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="349.55" y="53.68" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="90.11" y="53.68" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="127.18" y="53.68" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="15.99" y="53.68" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="53.05" y="53.68" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="164.24" y="53.68" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="201.3" y="53.68" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="238.36" y="91.24" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="275.43" y="91.24" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="312.49" y="91.24" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="349.55" y="91.24" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="90.11" y="91.24" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="127.18" y="91.24" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="15.99" y="91.24" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="53.05" y="91.24" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="164.24" y="91.24" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="201.3" y="91.24" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="238.36" y="128.64" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="275.43" y="128.64" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="312.49" y="128.64" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="349.55" y="128.64" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="90.11" y="128.64" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="127.18" y="128.64" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="15.99" y="128.64" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="53.05" y="128.64" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="164.24" y="128.64" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="201.3" y="128.64" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="238.36" y="165.18" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="275.43" y="165.18" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="312.49" y="165.18" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="349.55" y="165.18" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="90.11" y="165.18" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="127.18" y="165.18" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="15.99" y="165.18" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="53.05" y="165.18" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="238.36" y="200.69" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="275.43" y="200.69" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="312.49" y="200.69" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="349.55" y="200.69" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="90.11" y="200.69" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="127.18" y="200.69" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="15.99" y="200.69" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="53.05" y="200.69" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="238.36" y="238.09" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="275.43" y="238.09" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="312.49" y="238.09" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="349.55" y="238.09" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="90.11" y="238.09" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="127.18" y="238.09" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="15.99" y="238.09" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="53.05" y="238.09" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="164.24" y="238.09" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="201.3" y="238.09" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="238.36" y="275.64" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="275.43" y="275.64" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="312.49" y="275.64" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="349.55" y="275.64" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="90.11" y="275.64" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="127.18" y="275.64" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="15.99" y="275.64" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="53.05" y="275.64" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="164.24" y="275.64" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="201.3" y="275.64" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="238.36" y="313.04" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="275.43" y="313.04" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="312.49" y="313.04" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="349.55" y="313.04" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="90.11" y="313.04" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="127.18" y="313.04" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="15.99" y="313.04" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="53.05" y="313.04" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="164.24" y="313.04" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="201.3" y="313.04" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="238.36" y="349.59" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="275.43" y="349.59" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="312.49" y="349.59" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="53.05" y="349.59" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="164.24" y="349.59" width="28.7" height="28.51"></rect>
+                <rect class="apbcls-5" x="201.3" y="349.59" width="28.7" height="28.51"></rect>
+                <path class="apbcls-14" d="M30.18,16.48a14.25,14.25,0,0,1-14.29,14.2V45H44.63V16.48Z"></path>
+                <path class="apbcls-14" d="M364.46,16.48a14.25,14.25,0,0,0,14.29,14.2V45H350V16.48Z"></path>
+                <path class="apbcls-14" d="M30.18,378.3a14.25,14.25,0,0,0-14.29-14.2V349.74H44.63V378.3Z"></path>
+                <path class="apbcls-14" d="M364.46,378.1a14.25,14.25,0,0,1,14.29-14.2V349.54H350V378.1Z"></path>
+              </g>
+            </g>
+          </g>
+        </svg>
