@@ -166,10 +166,10 @@
     /* .middle-box styles */
     
     .middle-box {
-        transform: translate3D(-3.5em, 0em, 0em) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+        transform: translate3D(-3.5em, -0.04em, 0em) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
         opacity: 1;
         width: 9.5em;
-        height: 1.3em;
+        height: 1.37em;
         margin: -0.65em 0 0 -4.75em;
     }
     
@@ -184,7 +184,7 @@
     .middle-box .rt,
     .middle-box .lt {
         width: 9.5em;
-        height: 1.3em;
+        height: 1.37em;
     }
     
     .middle-box .tp,
@@ -884,10 +884,10 @@
     /* .cub-8 styles */
     
     .cub-8 {
-        transform: translate3D(-3.5em, -1.9em, 0em) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+        transform: translate3D(-3.5em, -1.91em, 0em) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
         opacity: 1;
         width: 9.5em;
-        height: 2.5em;
+        height: 2.51em;
         margin: -1.25em 0 0 -4.75em;
     }
     
@@ -902,7 +902,7 @@
     .cub-8 .rt,
     .cub-8 .lt {
         width: 9.5em;
-        height: 2.5em;
+        height: 2.51em;
     }
     
     .cub-8 .tp,
@@ -1342,7 +1342,7 @@
         transform: translate3D(-3.5em, -3.3em, 4em) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
         opacity: 1;
         width: 9.5em;
-        height: 0.3em;
+        height: 0.31em;
         margin: -0.15em 0 0 -4.75em;
     }
     
@@ -1382,7 +1382,8 @@
     
     .left-box .rt,
     .left-box .lt {
-        width: 0.5em;
+        width: 0.9em;
+        transform: rotateY(-90deg) translateX(-72%);
     }
     
     .left-box .tp,
@@ -1391,6 +1392,7 @@
     .left-box .bm .photon-shader {
         border-bottom-left-radius: 0.5em;
         border-bottom-right-radius: 0.5em;
+        border-top-right-radius: 0.5em;
     }
     
     .left-box .cr {
@@ -1500,7 +1502,9 @@
     }
     
     .buttons-box .tp {
-        background: url(../textures/astro/astro_pi_top_buttons.png);
+        background-size: contain!important; /* override .face rule for our image */
+        background-repeat: no-repeat;
+        background-image: url(../textures/astro/astro_pi_top_buttons.png);
     }
     
     .buttons-box .ft {
@@ -1525,6 +1529,7 @@
     .buttons-box .bm .photon-shader {
         border-top-left-radius: 0.5em;
         border-top-right-radius: 0.5em;
+        /*border-bottom-right-radius: 0.5em;*/
     }
     
     .buttons-box .cr {
@@ -1602,7 +1607,7 @@
     /* .below_grid styles */
     
     .below_grid {
-        transform: translate3D(-0.95em, -3.3em, 1.8em) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+        transform: translate3D(-0.8em, -3.3em, 1.8em) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
         opacity: 1;
         width: 4.4em;
         height: 0.3em;
@@ -1625,8 +1630,8 @@
     
     .below_grid .tp,
     .below_grid .bm {
-        width: 4.4em;
-        height: 4.7em;
+        width: 4.26em;
+        height: 4.75em;
     }
     
     .below_grid .face {
@@ -1759,6 +1764,7 @@
     .cub-19 .bm {
         width: 0.8em;
         height: 4em;
+        background-image: url(../textures/astro/astro_pi_top_astro_vis.png);
     }
     
     .cub-19 .face {
@@ -1862,7 +1868,7 @@
     /* .red-joystick styles */
     
     .red-joystick {
-        transform: translate3D(-2.1em, -3.25em, 3.1em) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+        transform: translate3D(-2em, -3.25em, 3.1em) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
         opacity: 1;
         width: 1em;
         height: 1em;
@@ -1943,7 +1949,7 @@
     /* .button-a styles */
     
     .button-a {
-        transform: translate3D(-2.05em, -3.3em, -2.4em) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+        transform: translate3D(-2.3em, -3.3em, -2.32em) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
         opacity: 1;
         width: 0.9em;
         height: 1em;
@@ -2024,13 +2030,13 @@
     /* .button-b styles */
     
     .button-b {
-        transform: translate3D(-2.05em, -3.3em, -3.6em) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+        transform: translate3D(-2.3em, -3.3em, -3.5em) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
         opacity: 1;
         width: 0.9em;
         height: 1em;
         margin: -0.5em 0 0 -0.45em;
     }
-    
+
     .button-b .tp,
     .button-b .bm {
         width: 0.9em;
@@ -2105,7 +2111,7 @@
     /* .button-down styles */
     
     .button-down {
-        transform: translate3D(-4.1em, -3.3em, -2.9em) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+        transform: translate3D(-3.9em, -3.3em, -2.92em) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
         opacity: 1;
         width: 0.9em;
         height: 1em;
@@ -2186,7 +2192,7 @@
     /* .button-up styles */
     
     .button-up {
-        transform: translate3D(-6.2em, -3.3em, -2.9em) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+        transform: translate3D(-5.6em, -3.3em, -2.92em) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
         opacity: 1;
         width: 0.9em;
         height: 1em;
@@ -2267,7 +2273,7 @@
     /* .button-right styles */
     
     .button-right {
-        transform: translate3D(-5.1em, -3.3em, -3.8em) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+        transform: translate3D(-4.75em, -3.3em, -3.8em) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
         opacity: 1;
         width: 0.9em;
         height: 1em;
@@ -2348,7 +2354,7 @@
     /* .button-right-1 styles */
     
     .button-right-1 {
-        transform: translate3D(-5.1em, -3.3em, -2.2em) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+        transform: translate3D(-4.75em, -3.3em, -2.15em) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
         opacity: 1;
         width: 0.9em;
         height: 1em;
@@ -2435,24 +2441,9 @@
         height: 0.1em;
         margin: -0.05em 0 0 -1.7em;
     }
-    
-    .led-grid-container .ft {
-        transform: translateZ(1.95em);
-    }
-    
-    .led-grid-container .bk {
-        transform: translateZ(-1.95em) rotateY(180deg);
-    }
-    
-    .led-grid-container .rt,
-    .led-grid-container .lt {
-        width: 3.9em;
-        height: 0.1em;
-    }
-    
-    .led-grid-container .tp,
-    .led-grid-container .bm {
-        width: 3.4em;
+
+    .led-grid-container .tp{
+        width: 3.7em;
         height: 3.9em;
     }
     
@@ -2461,7 +2452,7 @@
     }
 </style>
 <div id="tridiv">
-    <div class="scene" style="transform:rotateX(-90deg) rotateY(-90deg); ">
+    <div class="scene" style="transform:rotateX(-90deg) rotateY(0deg); ">
         <div class="shape cuboid-1 middle-box">
             <div class="face ft">
                 <div class="photon-shader" style="background-color: rgba(255, 255, 255, 0.14902);"></div>
@@ -2473,12 +2464,6 @@
                 <div class="photon-shader" style="background-color: rgba(255, 255, 255, 0.14902);"></div>
             </div>
             <div class="face lt">
-                <div class="photon-shader" style="background-color: rgba(255, 255, 255, 0.14902);"></div>
-            </div>
-            <div class="face bm">
-                <div class="photon-shader" style="background-color: rgba(255, 255, 255, 0.14902);"></div>
-            </div>
-            <div class="face tp">
                 <div class="photon-shader" style="background-color: rgba(255, 255, 255, 0.14902);"></div>
             </div>
         </div>
@@ -2835,12 +2820,6 @@
             <div class="face lt">
                 <div class="photon-shader" style="background-color: rgba(255, 255, 255, 0.14902);"></div>
             </div>
-            <div class="face bm">
-                <div class="photon-shader" style="background-color: rgba(255, 255, 255, 0.14902);"></div>
-            </div>
-            <div class="face tp">
-                <div class="photon-shader" style="background-color: rgba(255, 255, 255, 0.14902);"></div>
-            </div>
             <div class="cr cr-0">
                 <div class="face side s0">
                     <div class="photon-shader" style="background-color: rgba(255, 255, 255, 0.0745098);"></div>
@@ -3072,16 +3051,10 @@
             <div class="face ft">
                 <div class="photon-shader" style="background-color: rgba(255, 255, 255, 0.14902);"></div>
             </div>
-            <div class="face bk">
-                <div class="photon-shader" style="background-color: rgba(255, 255, 255, 0.14902);"></div>
-            </div>
             <div class="face rt">
                 <div class="photon-shader" style="background-color: rgba(255, 255, 255, 0.14902);"></div>
             </div>
             <div class="face lt">
-                <div class="photon-shader" style="background-color: rgba(255, 255, 255, 0.14902);"></div>
-            </div>
-            <div class="face bm">
                 <div class="photon-shader" style="background-color: rgba(255, 255, 255, 0.14902);"></div>
             </div>
             <div class="face tp">
@@ -3096,28 +3069,6 @@
                 </div>
                 <div class="face side s2">
                     <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.223529);"></div>
-                </div>
-            </div>
-            <div class="cr cr-1">
-                <div class="face side s0">
-                    <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.372549);"></div>
-                </div>
-                <div class="face side s1">
-                    <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.52549);"></div>
-                </div>
-                <div class="face side s2">
-                    <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.67451);"></div>
-                </div>
-            </div>
-            <div class="cr cr-2">
-                <div class="face side s0">
-                    <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.67451);"></div>
-                </div>
-                <div class="face side s1">
-                    <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.52549);"></div>
-                </div>
-                <div class="face side s2">
-                    <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.372549);"></div>
                 </div>
             </div>
             <div class="cr cr-3">
@@ -3133,9 +3084,6 @@
             </div>
         </div>
         <div class="shape cuboid-17 buttons-box">
-            <div class="face ft">
-                <div class="photon-shader" style="background-color: rgba(255, 255, 255, 0.14902);"></div>
-            </div>
             <div class="face bk">
                 <div class="photon-shader" style="background-color: rgba(255, 255, 255, 0.14902);"></div>
             </div>
@@ -3145,22 +3093,8 @@
             <div class="face lt">
                 <div class="photon-shader" style="background-color: rgba(255, 255, 255, 0.14902);"></div>
             </div>
-            <div class="face bm">
-                <div class="photon-shader" style="background-color: rgba(255, 255, 255, 0.14902);"></div>
-            </div>
             <div class="face tp">
                 <div class="photon-shader" style="background-color: rgba(255, 255, 255, 0.14902);"></div>
-            </div>
-            <div class="cr cr-0">
-                <div class="face side s0">
-                    <div class="photon-shader" style="background-color: rgba(255, 255, 255, 0.0745098);"></div>
-                </div>
-                <div class="face side s1">
-                    <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.0745098);"></div>
-                </div>
-                <div class="face side s2">
-                    <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.223529);"></div>
-                </div>
             </div>
             <div class="cr cr-1">
                 <div class="face side s0">
@@ -3184,26 +3118,12 @@
                     <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.372549);"></div>
                 </div>
             </div>
-            <div class="cr cr-3">
-                <div class="face side s0">
-                    <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.223529);"></div>
-                </div>
-                <div class="face side s1">
-                    <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.0745098);"></div>
-                </div>
-                <div class="face side s2">
-                    <div class="photon-shader" style="background-color: rgba(255, 255, 255, 0.0745098);"></div>
-                </div>
-            </div>
         </div>
         <div class="shape cuboid-18 below_grid">
             <div class="face ft">
                 <div class="photon-shader" style="background-color: rgba(255, 255, 255, 0.14902);"></div>
             </div>
             <div class="face bk">
-                <div class="photon-shader" style="background-color: rgba(255, 255, 255, 0.14902);"></div>
-            </div>
-            <div class="face rt">
                 <div class="photon-shader" style="background-color: rgba(255, 255, 255, 0.14902);"></div>
             </div>
             <div class="face lt">
@@ -3268,12 +3188,6 @@
                 <div class="photon-shader" style="background-color: rgba(255, 255, 255, 0.14902);"></div>
             </div>
             <div class="face rt">
-                <div class="photon-shader" style="background-color: rgba(255, 255, 255, 0.14902);"></div>
-            </div>
-            <div class="face lt">
-                <div class="photon-shader" style="background-color: rgba(255, 255, 255, 0.14902);"></div>
-            </div>
-            <div class="face bm">
                 <div class="photon-shader" style="background-color: rgba(255, 255, 255, 0.14902);"></div>
             </div>
             <div class="face tp">
@@ -3800,7 +3714,7 @@
                             <stop offset="1" style="stop-color:rgba(14,46,27,0);"></stop>
                         </linearGradient>
                     </defs>
-                    <g id="astro_pi_led_wrapper" transform="scale(0.65, 0.72) translate(-58, -133)">
+                    <g id="astro_pi_led_wrapper" transform="scale(0.71, 0.71) translate(-58, -132)">
                         <g id="g-1" id="astro_pi_led_base_grid">
                             <rect x="59.7" y="137.7" class="st37" width="193.3" height="195.4"></rect>
                             <rect x="231.2" y="137.4" class="st38" width="21.3" height="22.4"></rect>
