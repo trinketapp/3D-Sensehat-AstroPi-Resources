@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="80.82998657226562" height="69.16999816894531" viewBox="30.134 178.472 72.023 60.789" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .cls-1, .cls-11, .cls-14, .cls-17, .cls-23, .cls-26, .cls-8 {
+        fill: none;
+      }
+
+      .cls-12, .cls-2, .cls-20 {
+        fill: #4d4d4d;
+      }
+
+      .cls-12, .cls-2, .cls-23, .cls-26, .cls-3 {
+        stroke: #333;
+      }
+
+      .cls-11, .cls-12, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-2, .cls-23, .cls-26, .cls-3, .cls-8 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-23 {
+        stroke-width: 1.43px;
+      }
+
+      .cls-13, .cls-18, .cls-3 {
+        fill: #b3b3b3;
+      }
+
+      .cls-19, .cls-4 {
+        isolation: isolate;
+      }
+
+      .cls-16, .cls-5 {
+        fill: #e6e6e6;
+      }
+
+      .cls-6 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-19, .cls-25, .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-7 {
+        fill-opacity: 0.25;
+      }
+
+      .cls-11, .cls-14, .cls-16, .cls-18, .cls-8 {
+        stroke: #666;
+      }
+
+      .cls-8 {
+        stroke-width: 1.13px;
+      }
+
+      .cls-9 {
+        clip-path: url(#clip-path-3);
+      }
+
+      .cls-10 {
+        clip-path: url(#clip-path-5);
+      }
+
+      .cls-11, .cls-16 {
+        stroke-width: 1.11px;
+      }
+
+      .cls-12, .cls-14 {
+        stroke-width: 1.06px;
+      }
+
+      .cls-15 {
+        fill: #309a5d;
+        stroke: #004537;
+        stroke-width: 2.2px;
+      }
+
+      .cls-17 {
+        stroke: #ffdb13;
+        stroke-width: 5.82px;
+      }
+
+      .cls-18 {
+        stroke-width: 0.9px;
+      }
+
+      .cls-19 {
+        opacity: 0.25;
+      }
+
+      .cls-21 {
+        clip-path: url(#clip-path-7);
+      }
+
+      .cls-22 {
+        opacity: 0.15;
+        mix-blend-mode: darken;
+      }
+
+      .cls-24 {
+        clip-path: url(#clip-path-8);
+      }
+
+      .cls-25 {
+        fill-opacity: 0.1;
+      }
+    </style>
+  </defs>
+  <rect id="_Rectangle_2" data-name="&lt;Rectangle&gt;" class="cls-20" x="20.83" y="180.23" width="70.17" height="54.17" rx="2.92" ry="2.92" transform="matrix(1, 0, 0, 1, 0, 0)"/>
+  <rect class="cls-22" x="43.41" y="181.23" width="53.23" height="56.25" transform="matrix(1, 0, 0, 1, 0, 0)"/>
+  <rect id="_Rectangle_3" data-name="&lt;Rectangle&gt;" class="cls-23" x="20.83" y="180.23" width="70.17" height="54.17" rx="2.92" ry="2.92" transform="matrix(1, 0, 0, 1, 0, 0)"/>
+  <polygon id="_Clipping_Path_2" data-name="&lt;Clipping Path&gt;" class="cls-13" points="30.53 178.98 101.66 178.98 101.66 238.73 30.53 238.73 30.53 224.29 34.16 224.29 50.16 219.35 50.16 182.27 30.56 182.27 30.53 178.98" transform="matrix(1, 0, 0, 1, 0, 0)"/>
+  <polygon id="_Clipping_Path_3" data-name="&lt;Clipping Path&gt;" class="cls-26" points="30.53 178.98 101.66 178.98 101.66 238.73 30.53 238.73 30.53 224.29 34.16 224.29 50.16 219.35 50.16 182.27 30.56 182.27 30.53 178.98" transform="matrix(1, 0, 0, 1, 0, 0)" style="stroke: rgb(179, 179, 179);"/>
+</svg>

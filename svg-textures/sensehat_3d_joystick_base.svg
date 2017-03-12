@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="80.00003051757812" height="80" viewBox="277.508 287.372 62.584 62.338" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css">
+            .leds,
+            .rled,
+            .gled,
+            .bled {
+              mix-blend-mode: screen;
+            }
+
+            /*Stop blending for off and kled*/
+            .kled,
+            .oled {
+              mix-blend-mode: normal;
+            }
+            /*Colored LEDs should glow*/
+
+            .rled,
+            .gled,
+            .bled {
+              filter: url(#glow);
+            }
+            /* Rectangles under the LEDs */
+
+            .ledrect {
+              filter: url(#shadow);
+              fill: url(#ledrect);
+            }
+
+            .st0 {
+              fill: #309A5D;
+              stroke: #004537;
+              stroke-width: 2.1959;
+              stroke-miterlimit: 10;
+            }
+
+            .st1 {
+              opacity: 0.15;
+            }
+
+            .st2 {
+              opacity: 0.15;
+              enable-background: new;
+            }
+
+            .st3 {
+              fill: url(#XMLID_8_);
+            }
+
+            .st4 {
+              opacity: 0.33;
+              clip-path: url(#SVGID_2_);
+              fill: url(#SVGID_3_);
+              enable-background: new;
+            }
+
+            .st5 {
+              opacity: 0.33;
+              clip-path: url(#SVGID_5_);
+              fill: url(#SVGID_6_);
+              enable-background: new;
+            }
+
+            .st6 {
+              fill: #4D4D4D;
+              stroke: #333333;
+              stroke-width: 1.0637;
+              stroke-miterlimit: 10;
+            }
+
+            .st7 {
+              fill: #20262E;
+            }
+
+            .st8 {
+              fill: #B3B3B3;
+            }
+
+            .st9 {
+              fill: none;
+              stroke: #666666;
+              stroke-width: 1.1067;
+              stroke-miterlimit: 10;
+            }
+
+            .st10 {
+              fill: none;
+              stroke: #666666;
+              stroke-width: 1.0637;
+              stroke-miterlimit: 10;
+            }
+
+            .st11 {
+              fill: none;
+              stroke: #666666;
+              stroke-width: 2.4169;
+              stroke-miterlimit: 10;
+            }
+
+            .st12 {
+              fill: #E6E6E6;
+            }
+
+            .st13 {
+              clip-path: url(#SVGID_8_);
+              fill: #FFFFFF;
+              fill-opacity: 0.25;
+            }
+
+            .st14 {
+              clip-path: url(#SVGID_10_);
+              fill: #FFFFFF;
+              fill-opacity: 0.25;
+            }
+
+            .st15 {
+              fill: none;
+              stroke: #666666;
+              stroke-width: 1.1336;
+              stroke-miterlimit: 10;
+            }
+
+            .st16 {
+              clip-path: url(#SVGID_12_);
+              fill: #FFFFFF;
+              fill-opacity: 0.25;
+            }
+
+            .st17 {
+              clip-path: url(#SVGID_14_);
+              fill: #FFFFFF;
+              fill-opacity: 0.25;
+            }
+
+            .st18 {
+              clip-path: url(#SVGID_16_);
+              fill: #FFFFFF;
+              fill-opacity: 0.25;
+            }
+
+            .st19 {
+              clip-path: url(#SVGID_18_);
+              fill: #FFFFFF;
+              fill-opacity: 0.25;
+            }
+
+            .st20 {
+              fill: none;
+              stroke: #FFDB13;
+              stroke-width: 5.8236;
+              stroke-miterlimit: 10;
+            }
+
+            .st21 {
+              fill: none;
+              stroke: #FFDB13;
+              stroke-width: 5.6295;
+              stroke-miterlimit: 10;
+            }
+
+            .st22 {
+              fill: none;
+              stroke: #FFDB13;
+              stroke-width: 5.5324;
+              stroke-miterlimit: 10;
+            }
+
+            .st23 {
+              fill: #575756;
+              stroke: #3C3C3B;
+              stroke-width: 1.1099;
+              stroke-miterlimit: 10;
+            }
+
+            .st24 {
+              fill: #BDBEC2;
+            }
+
+            .st25 {
+              fill: #575756;
+              stroke: #3C3C3B;
+              stroke-width: 0.2469;
+              stroke-miterlimit: 10;
+            }
+
+            .st26 {
+              fill: none;
+              stroke: #FFDB13;
+              stroke-width: 6.2377;
+              stroke-miterlimit: 10;
+            }
+
+            .st27 {
+              fill: #B3B3B3;
+              stroke: #666666;
+              stroke-width: 0.8999;
+              stroke-miterlimit: 10;
+            }
+
+            .st28 {
+              opacity: 0.25;
+              fill: #FFFFFF;
+              enable-background: new;
+            }
+
+            .st29 {
+              fill: #333333;
+            }
+
+            .st30 {
+              fill: #575756;
+              stroke: #3C3C3B;
+              stroke-width: 1.3186;
+              stroke-miterlimit: 10;
+            }
+
+            .st31 {
+              fill: #8E5F41;
+            }
+
+            .st32 {
+              fill: #F29F6A;
+            }
+
+            .st33 {
+              fill: #B89A5D;
+            }
+
+            .st34 {
+              opacity: 0.4;
+            }
+
+            .st35 {
+              fill: #575756;
+            }
+
+            .st36 {
+              fill: #F5F5F5;
+            }
+
+            .st37 {
+              fill: url(#bigrect);
+            }
+
+            .st38 {
+              filter: url(#shadow);
+              fill: url(#ledrect);
+            }
+
+            .st39 {
+              opacity: 1;
+              fill: black;
+            }
+
+            /*Ignore dark LED circles that turned into white rings on blend */
+            .st40 {
+              fill: #968E87;
+              opacity: 0;
+            }
+
+            .st41 {
+              opacity: 0.1;
+              fill: #1D1D1B;
+            }
+
+            .st42 {
+              opacity: 0.15;
+              fill: #1D1D1B;
+            }
+
+            .st43 {
+              fill: #3F3F3F;
+              stroke: #333333;
+              stroke-width: 1.9404;
+              stroke-miterlimit: 10;
+            }
+
+            .st44 {
+              fill: #484848;
+              stroke: #333333;
+              stroke-width: 1.8277;
+              stroke-miterlimit: 10;
+            }
+
+            .st45 {
+              opacity: 0.25;
+              fill: #1D1D1B;
+            }
+
+            .st46 {
+              fill: #414140;
+              stroke: #333333;
+              stroke-width: 1.7828;
+              stroke-miterlimit: 10;
+            }
+
+            .st47 {
+              fill: #484848;
+              stroke: #333333;
+              stroke-width: 2.1136;
+              stroke-miterlimit: 10;
+            }
+          </style>
+  </defs>
+  <g transform="matrix(0.711728, 0.711728, -0.711728, 0.711728, 315.724304, -127.987236)">
+    <g id="joystick-base">
+      <g>
+        <path class="st23" d="M301.9,354.6l-29.1-28.8c-3.9-3.9-4-10.2-0.1-14.2l28.8-29.1c3.9-3.9,10.2-4,14.2-0.1l29.1,28.8&#10;                    c3.9,3.9,4,10.2,0.1,14.2L316,354.5C312.2,358.5,305.8,358.5,301.9,354.6z"/>
+      </g>
+      <path class="st42" d="M322.7,309.5l0.1,17.8c0,2.8-2.2,5.1-5,5.1l-17.8,0.1c-2.8,0-5.1-2.2-5.1-5l-0.1-17.8c0-2.8,2.2-5.1,5-5.1&#10;                  l17.8-0.1C320.4,304.5,322.7,306.7,322.7,309.5z"/>
+      <path class="st47" d="M318.8,312l0.1,12.8c0,2-1.6,3.7-3.6,3.7l-12.8,0.1c-2,0-3.7-1.6-3.7-3.6l-0.1-12.8c0-2,1.6-3.7,3.6-3.7&#10;                  l12.8-0.1C317.2,308.4,318.8,310,318.8,312z"/>
+    </g>
+  </g>
+</svg>

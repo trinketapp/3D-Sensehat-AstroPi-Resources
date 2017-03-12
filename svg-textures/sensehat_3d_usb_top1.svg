@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="152.10000610351562" height="168.49998474121094" viewBox="360.134 98.444 117.65 93.37" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css">
+            .leds,
+            .rled,
+            .gled,
+            .bled {
+              mix-blend-mode: screen;
+            }
+
+            /*Stop blending for off and kled*/
+            .kled,
+            .oled {
+              mix-blend-mode: normal;
+            }
+            /*Colored LEDs should glow*/
+
+            .rled,
+            .gled,
+            .bled {
+              filter: url(#glow);
+            }
+            /* Rectangles under the LEDs */
+
+            .ledrect {
+              filter: url(#shadow);
+              fill: url(#ledrect);
+            }
+
+            .st0 {
+              fill: #309A5D;
+              stroke: #004537;
+              stroke-width: 2.1959;
+              stroke-miterlimit: 10;
+            }
+
+            .st1 {
+              opacity: 0.15;
+            }
+
+            .st2 {
+              opacity: 0.15;
+              enable-background: new;
+            }
+
+            .st3 {
+              fill: url(#XMLID_8_);
+            }
+
+            .st4 {
+              opacity: 0.33;
+              clip-path: url(#SVGID_2_);
+              fill: url(#SVGID_3_);
+              enable-background: new;
+            }
+
+            .st5 {
+              opacity: 0.33;
+              clip-path: url(#SVGID_5_);
+              fill: url(#SVGID_6_);
+              enable-background: new;
+            }
+
+            .st6 {
+              fill: #4D4D4D;
+              stroke: #333333;
+              stroke-width: 1.0637;
+              stroke-miterlimit: 10;
+            }
+
+            .st7 {
+              fill: #20262E;
+            }
+
+            .st8 {
+              fill: #B3B3B3;
+            }
+
+            .st9 {
+              fill: none;
+              stroke: #666666;
+              stroke-width: 1.1067;
+              stroke-miterlimit: 10;
+            }
+
+            .st10 {
+              fill: none;
+              stroke: #666666;
+              stroke-width: 1.0637;
+              stroke-miterlimit: 10;
+            }
+
+            .st11 {
+              fill: none;
+              stroke: #666666;
+              stroke-width: 2.4169;
+              stroke-miterlimit: 10;
+            }
+
+            .st12 {
+              fill: #E6E6E6;
+            }
+
+            .st13 {
+              clip-path: url(#SVGID_8_);
+              fill: #FFFFFF;
+              fill-opacity: 0.25;
+            }
+
+            .st14 {
+              clip-path: url(#SVGID_10_);
+              fill: #FFFFFF;
+              fill-opacity: 0.25;
+            }
+
+            .st15 {
+              fill: none;
+              stroke: #666666;
+              stroke-width: 1.1336;
+              stroke-miterlimit: 10;
+            }
+
+            .st16 {
+              clip-path: url(#SVGID_12_);
+              fill: #FFFFFF;
+              fill-opacity: 0.25;
+            }
+
+            .st17 {
+              clip-path: url(#SVGID_14_);
+              fill: #FFFFFF;
+              fill-opacity: 0.25;
+            }
+
+            .st18 {
+              clip-path: url(#SVGID_16_);
+              fill: #FFFFFF;
+              fill-opacity: 0.25;
+            }
+
+            .st19 {
+              clip-path: url(#SVGID_18_);
+              fill: #FFFFFF;
+              fill-opacity: 0.25;
+            }
+
+            .st20 {
+              fill: none;
+              stroke: #FFDB13;
+              stroke-width: 5.8236;
+              stroke-miterlimit: 10;
+            }
+
+            .st21 {
+              fill: none;
+              stroke: #FFDB13;
+              stroke-width: 5.6295;
+              stroke-miterlimit: 10;
+            }
+
+            .st22 {
+              fill: none;
+              stroke: #FFDB13;
+              stroke-width: 5.5324;
+              stroke-miterlimit: 10;
+            }
+
+            .st23 {
+              fill: #575756;
+              stroke: #3C3C3B;
+              stroke-width: 1.1099;
+              stroke-miterlimit: 10;
+            }
+
+            .st24 {
+              fill: #BDBEC2;
+            }
+
+            .st25 {
+              fill: #575756;
+              stroke: #3C3C3B;
+              stroke-width: 0.2469;
+              stroke-miterlimit: 10;
+            }
+
+            .st26 {
+              fill: none;
+              stroke: #FFDB13;
+              stroke-width: 6.2377;
+              stroke-miterlimit: 10;
+            }
+
+            .st27 {
+              fill: #B3B3B3;
+              stroke: #666666;
+              stroke-width: 0.8999;
+              stroke-miterlimit: 10;
+            }
+
+            .st28 {
+              opacity: 0.25;
+              fill: #FFFFFF;
+              enable-background: new;
+            }
+
+            .st29 {
+              fill: #333333;
+            }
+
+            .st30 {
+              fill: #575756;
+              stroke: #3C3C3B;
+              stroke-width: 1.3186;
+              stroke-miterlimit: 10;
+            }
+
+            .st31 {
+              fill: #8E5F41;
+            }
+
+            .st32 {
+              fill: #F29F6A;
+            }
+
+            .st33 {
+              fill: #B89A5D;
+            }
+
+            .st34 {
+              opacity: 0.4;
+            }
+
+            .st35 {
+              fill: #575756;
+            }
+
+            .st36 {
+              fill: #F5F5F5;
+            }
+
+            .st37 {
+              fill: url(#bigrect);
+            }
+
+            .st38 {
+              filter: url(#shadow);
+              fill: url(#ledrect);
+            }
+
+            .st39 {
+              opacity: 1;
+              fill: black;
+            }
+
+            /*Ignore dark LED circles that turned into white rings on blend */
+            .st40 {
+              fill: #968E87;
+              opacity: 0;
+            }
+
+            .st41 {
+              opacity: 0.1;
+              fill: #1D1D1B;
+            }
+
+            .st42 {
+              opacity: 0.15;
+              fill: #1D1D1B;
+            }
+
+            .st43 {
+              fill: #3F3F3F;
+              stroke: #333333;
+              stroke-width: 1.9404;
+              stroke-miterlimit: 10;
+            }
+
+            .st44 {
+              fill: #484848;
+              stroke: #333333;
+              stroke-width: 1.8277;
+              stroke-miterlimit: 10;
+            }
+
+            .st45 {
+              opacity: 0.25;
+              fill: #1D1D1B;
+            }
+
+            .st46 {
+              fill: #414140;
+              stroke: #333333;
+              stroke-width: 1.7828;
+              stroke-miterlimit: 10;
+            }
+
+            .st47 {
+              fill: #484848;
+              stroke: #333333;
+              stroke-width: 2.1136;
+              stroke-miterlimit: 10;
+            }
+          </style>
+  </defs>
+  <g>
+    <rect id="XMLID_11_" x="359.9" y="98.5" class="st12" width="117.9" height="93.3"/>
+    <path class="st13" d="M 486.8 149.6 C 486.2 149.3 413.4 69.8 413.4 69.8 L 389.3 81.2 L 484.7 184 L 486.8 149.6 Z"/>
+    <path class="st14" d="M 466.6 191.8 C 465.8 191.3 367.3 83.9 367.3 83.9 L 334.7 99.3 L 463.8 238.3 L 466.6 191.8 Z"/>
+    <path class="st35" d="M 432.4 134 C 432.4 133.3 432.9 132.6 433.6 132.5 L 461.8 126.2 C 462.3 126.1 462.7 125.7 462.7 125.1 L 462.7 121.8 C 462.7 121.3 462.3 120.8 461.8 120.7 L 433.8 116.3 C 433 116.2 432.4 115.4 432.5 114.6 C 432.6 113.8 433.4 113.2 434.2 113.3 L 465.8 117.7 C 467.9 118 469.4 119.8 469.4 121.8 L 469.4 125.1 C 469.4 127.1 468 128.8 466 129.2 L 434.3 135.5 C 433.5 135.7 432.6 135.1 432.5 134.3 C 432.4 134.2 432.4 134.1 432.4 134 Z"/>
+    <path class="st35" d="M 432.4 168.9 C 432.4 168.2 432.9 167.5 433.6 167.4 L 461.8 161.1 C 462.3 161 462.7 160.6 462.7 160 L 462.7 156.7 C 462.7 156.2 462.3 155.7 461.8 155.6 L 433.8 151.2 C 433 151.1 432.4 150.3 432.5 149.5 C 432.6 148.7 433.4 148.1 434.2 148.2 L 465.8 152.6 C 467.9 152.9 469.4 154.7 469.4 156.7 L 469.4 160 C 469.4 162 468 163.7 466 164.1 L 434.3 170.4 C 433.5 170.6 432.6 170 432.5 169.2 C 432.4 169.1 432.4 169 432.4 168.9 Z"/>
+  </g>
+</svg>
