@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="101 42 452 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="linear-gradient-6" x1="251.77" y1="254.28" x2="380.23" y2="254.28" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.980884, 0, 0, 0.980884, 0.000003, 0.000285)">
+      <stop offset="0" stop-color="#acacac"/>
+      <stop offset="1" stop-color="#b0b0b0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-7" x1="256.93" y1="254.28" x2="375.07" y2="254.28" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.980884, 0, 0, 0.980884, 0.00006, 0.000049)">
+      <stop offset="0" stop-color="#b3b3b3"/>
+      <stop offset="1" stop-color="#ccc"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-8" x1="261.14" y1="253.52" x2="313.13" y2="253.52" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.980884, 0, 0, 0.980886, -0.000139, -0.000437)">
+      <stop offset="0" stop-color="#808079"/>
+      <stop offset="1" stop-color="#808078"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-9" x1="318.48" y1="253.52" x2="370.48" y2="253.52" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.980884, 0, 0, 0.980883, 0.000064, 0.000112)">
+      <stop offset="0" stop-color="#808079"/>
+      <stop offset="1" stop-color="#808078"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient-8" cx="287.13" cy="253.52" r="13.76" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1, 0, 0, 0.999999, 0.000305, 0.000525)">
+      <stop offset="0" stop-color="#5c5e5d"/>
+      <stop offset="1" stop-color="#4d4f4e"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient-10" x1="235.95" y1="134.48" x2="396.53" y2="134.48" gradientTransform="matrix(0.69359, 0.693589, -0.69359, 0.693589, 184.131532, -180.708185)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#acacac"/>
+      <stop offset="1" stop-color="#b0b0b0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-11" x1="243.44" y1="134.48" x2="389.03" y2="134.48" gradientTransform="matrix(0.69359, 0.69359, -0.69359, 0.69359, 184.131496, -180.708125)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b3b3b3"/>
+      <stop offset="1" stop-color="#ccc"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-12" x1="332.25" y1="135.38" x2="384.25" y2="135.38" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.980884, 0, 0, 0.980885, -0.000144, -0.000105)">
+      <stop offset="0" stop-color="#808079"/>
+      <stop offset="1" stop-color="#808078"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-13" x1="250.81" y1="134.23" x2="302.81" y2="134.23" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1, 0, 0, 1.000001, 0.000336, 0.000004)">
+      <stop offset="0" stop-color="#808079"/>
+      <stop offset="1" stop-color="#808078"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-14" x1="289.81" y1="94.09" x2="341.81" y2="94.09" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.980886, 0, 0, 0.980884, -0.000555, 0.000108)">
+      <stop offset="0" stop-color="#808079"/>
+      <stop offset="1" stop-color="#808078"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-15" x1="289.81" y1="175.52" x2="341.81" y2="175.52" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.980886, 0, 0, 0.980885, -0.000555, -0.000005)">
+      <stop offset="0" stop-color="#808079"/>
+      <stop offset="1" stop-color="#808078"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient-12" cx="276.81" cy="134.23" r="13.76" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1, 0, 0, 1, 0.000336, 0.000122)">
+      <stop offset="0" stop-color="#5c5e5d"/>
+      <stop offset="1" stop-color="#4d4f4e"/>
+    </radialGradient>
+    <style type="text/css">
+                    .hide {
+                      display: none
+                    }
+
+                    .leds, /* grunt-remove */
+                    .rled, /* grunt-remove */
+                    .gled, /* grunt-remove */
+                    .bled { /* grunt-remove */
+                      mix-blend-mode: screen; /* grunt-remove */
+                    } /* grunt-remove */
+
+                    /*Stop blending for off and kled*/ /* grunt-remove */
+                    .kled, /* grunt-remove */
+                    .oled { /* grunt-remove */
+                      mix-blend-mode: normal; /* grunt-remove */
+                    } /* grunt-remove */
+                    /*Colored LEDs should glow*/
+
+                    .rled,
+                    .gled,
+                    .bled {
+                      filter: url(#glow);
+                    }
+                    /* Rectangles under the LEDs */
+
+                    .ledrect {
+                      filter: url(#shadow);
+                      fill: url(#ledrect);
+                    }
+
+                    .st0 {
+                      fill: #309A5D;
+                      stroke: #004537;
+                      stroke-width: 2.1959;
+                      stroke-miterlimit: 10;
+                    }
+
+                    .st1 {
+                      opacity: 0.15;
+                    }
+
+                    .st2 {
+                      opacity: 0.15;
+                      enable-background: new;
+                    }
+
+                    .st3 {
+                      fill: url(#XMLID_8_);
+                    }
+
+                    .st4 {
+                      opacity: 0.33;
+                      clip-path: url(#SVGID_2_);
+                      fill: url(#SVGID_3_);
+                      enable-background: new;
+                    }
+
+                    .st5 {
+                      opacity: 0.33;
+                      clip-path: url(#SVGID_5_);
+                      fill: url(#SVGID_6_);
+                      enable-background: new;
+                    }
+
+                    .st6 {
+                      fill: #4D4D4D;
+                      stroke: #333333;
+                      stroke-width: 1.0637;
+                      stroke-miterlimit: 10;
+                    }
+
+                    .st7 {
+                      fill: #20262E;
+                    }
+
+                    .st8 {
+                      fill: #B3B3B3;
+                    }
+
+                    .st9 {
+                      fill: none;
+                      stroke: #666666;
+                      stroke-width: 1.1067;
+                      stroke-miterlimit: 10;
+                    }
+
+                    .st10 {
+                      fill: none;
+                      stroke: #666666;
+                      stroke-width: 1.0637;
+                      stroke-miterlimit: 10;
+                    }
+
+                    .st11 {
+                      fill: none;
+                      stroke: #666666;
+                      stroke-width: 2.4169;
+                      stroke-miterlimit: 10;
+                    }
+
+                    .st12 {
+                      fill: #E6E6E6;
+                    }
+
+                    .st13 {
+                      clip-path: url(#SVGID_8_);
+                      fill: #FFFFFF;
+                      fill-opacity: 0.25;
+                    }
+
+                    .st14 {
+                      clip-path: url(#SVGID_10_);
+                      fill: #FFFFFF;
+                      fill-opacity: 0.25;
+                    }
+
+                    .st15 {
+                      fill: none;
+                      stroke: #666666;
+                      stroke-width: 1.1336;
+                      stroke-miterlimit: 10;
+                    }
+
+                    .st16 {
+                      clip-path: url(#SVGID_12_);
+                      fill: #FFFFFF;
+                      fill-opacity: 0.25;
+                    }
+
+                    .st17 {
+                      clip-path: url(#SVGID_14_);
+                      fill: #FFFFFF;
+                      fill-opacity: 0.25;
+                    }
+
+                    .st18 {
+                      clip-path: url(#SVGID_16_);
+                      fill: #FFFFFF;
+                      fill-opacity: 0.25;
+                    }
+
+                    .st19 {
+                      clip-path: url(#SVGID_18_);
+                      fill: #FFFFFF;
+                      fill-opacity: 0.25;
+                    }
+
+                    .st20 {
+                      fill: none;
+                      stroke: #FFDB13;
+                      stroke-width: 5.8236;
+                      stroke-miterlimit: 10;
+                    }
+
+                    .st21 {
+                      fill: none;
+                      stroke: #FFDB13;
+                      stroke-width: 5.6295;
+                      stroke-miterlimit: 10;
+                    }
+
+                    .st22 {
+                      fill: none;
+                      stroke: #FFDB13;
+                      stroke-width: 5.5324;
+                      stroke-miterlimit: 10;
+                    }
+
+                    .st23 {
+                      fill: #575756;
+                      stroke: #3C3C3B;
+                      stroke-width: 1.1099;
+                      stroke-miterlimit: 10;
+                    }
+
+                    .st24 {
+                      fill: #BDBEC2;
+                    }
+
+                    .st25 {
+                      fill: #575756;
+                      stroke: #3C3C3B;
+                      stroke-width: 0.2469;
+                      stroke-miterlimit: 10;
+                    }
+
+                    .st26 {
+                      fill: none;
+                      stroke: #FFDB13;
+                      stroke-width: 6.2377;
+                      stroke-miterlimit: 10;
+                    }
+
+                    .st27 {
+                      fill: #B3B3B3;
+                      stroke: #666666;
+                      stroke-width: 0.8999;
+                      stroke-miterlimit: 10;
+                    }
+
+                    .st28 {
+                      opacity: 0.25;
+                      fill: #FFFFFF;
+                      enable-background: new;
+                    }
+
+                    .st29 {
+                      fill: #333333;
+                    }
+
+                    .st30 {
+                      fill: #575756;
+                      stroke: #3C3C3B;
+                      stroke-width: 1.3186;
+                      stroke-miterlimit: 10;
+                    }
+
+                    .st31 {
+                      fill: #8E5F41;
+                    }
+
+                    .st32 {
+                      fill: #F29F6A;
+                    }
+
+                    .st33 {
+                      fill: #B89A5D;
+                    }
+
+                    .st34 {
+                      opacity: 0.4;
+                    }
+
+                    .st35 {
+                      fill: #575756;
+                    }
+
+                    .st36 {
+                      fill: #F5F5F5;
+                    }
+
+                    .st37 {
+                      fill: url(#bigrect);
+                    }
+
+                    .st38 {
+                      filter: url(#shadow);
+                      fill: url(#ledrect);
+                    }
+
+                    .st39 {
+                      opacity: 1;
+                      fill: black; /* grunt-replace-with fill: url(#ledrect); */
+                    }
+
+                    /*Ignore dark LED circles that turned into white rings on blend */
+                    .st40 {
+                      fill: #968E87;
+                      opacity: 0;
+                    }
+
+                    .st41 {
+                      opacity: 0.1;
+                      fill: #1D1D1B;
+                    }
+
+                    .st42 {
+                      opacity: 0.15;
+                      fill: #1D1D1B;
+                    }
+
+                    .st43 {
+                      fill: #3F3F3F;
+                      stroke: #333333;
+                      stroke-width: 1.9404;
+                      stroke-miterlimit: 10;
+                    }
+
+                    .st44 {
+                      fill: #484848;
+                      stroke: #333333;
+                      stroke-width: 1.8277;
+                      stroke-miterlimit: 10;
+                    }
+
+                    .st45 {
+                      opacity: 0.25;
+                      fill: #1D1D1B;
+                    }
+
+                    .st46 {
+                      fill: #414140;
+                      stroke: #333333;
+                      stroke-width: 1.7828;
+                      stroke-miterlimit: 10;
+                    }
+
+                    .st47 {
+                      fill: #484848;
+                      stroke: #333333;
+                      stroke-width: 2.1136;
+                      stroke-miterlimit: 10;
+                    }
+                  </style>
+    <style>
+              .cls-1 {
+                isolation: isolate;
+              }
+
+              .cls-2 {
+                fill: #ccc;
+              }
+
+              .cls-19, .cls-2, .cls-21, .cls-25, .cls-27, .cls-29, .cls-3, .cls-31, .cls-37, .cls-4, .cls-43, .cls-45, .cls-47, .cls-49, .cls-51, .cls-53, .cls-55, .cls-57 {
+                stroke: #999;
+              }
+
+              .cls-13, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-2, .cls-20, .cls-21, .cls-23, .cls-24, .cls-25, .cls-26, .cls-27, .cls-28, .cls-29, .cls-3, .cls-30, .cls-31, .cls-32, .cls-36, .cls-37, .cls-39, .cls-4, .cls-40, .cls-41, .cls-42, .cls-43, .cls-44, .cls-45, .cls-46, .cls-47, .cls-48, .cls-49, .cls-50, .cls-51, .cls-52, .cls-53, .cls-54, .cls-55, .cls-56, .cls-57, .cls-58, .cls-7 {
+                stroke-miterlimit: 10;
+              }
+
+              .cls-15, .cls-19, .cls-2, .cls-20, .cls-21, .cls-23, .cls-24, .cls-27, .cls-28, .cls-31, .cls-32, .cls-36, .cls-37, .cls-39, .cls-4, .cls-40, .cls-41, .cls-42, .cls-45, .cls-46, .cls-49, .cls-50, .cls-53, .cls-54, .cls-57, .cls-58 {
+                stroke-width: 1.15px;
+              }
+
+              .cls-3 {
+                fill: #e6e6e6;
+              }
+
+              .cls-4 {
+                fill: url(#linear-gradient);
+              }
+
+              .cls-5 {
+                fill: url(#linear-gradient-2);
+              }
+
+              .cls-6 {
+                opacity: 0.2;
+                mix-blend-mode: darken;
+              }
+
+              .cls-7 {
+                stroke: #e1ccbc;
+                stroke-width: 1.64px;
+                fill: url(#linear-gradient-3);
+              }
+
+              .cls-14, .cls-8 {
+                opacity: 0.3;
+              }
+
+              .cls-8 {
+                mix-blend-mode: multiply;
+              }
+
+              .cls-9 {
+                fill: #ca8c33;
+              }
+
+              .cls-10, .cls-14 {
+                fill: #fff;
+              }
+
+              .cls-11 {
+                fill: #f6f6f6;
+              }
+
+              .cls-12 {
+                fill: #edd5bd;
+              }
+
+              .cls-13, .cls-15, .cls-16, .cls-17, .cls-18 {
+                fill: #c1272d;
+                stroke: #71272d;
+              }
+
+              .cls-13 {
+                stroke-width: 0.87px;
+              }
+
+              .cls-16 {
+                stroke-width: 0.89px;
+              }
+
+              .cls-17 {
+                stroke-width: 0.96px;
+              }
+
+              .cls-18 {
+                stroke-width: 1.05px;
+              }
+
+              .cls-19 {
+                fill: url(#linear-gradient-4);
+              }
+
+              .cls-20, .cls-23, .cls-24, .cls-26, .cls-28, .cls-30, .cls-32, .cls-36, .cls-39, .cls-40, .cls-41, .cls-42, .cls-44, .cls-46, .cls-48, .cls-50, .cls-52, .cls-54, .cls-56, .cls-58 {
+                stroke: #666;
+              }
+
+              .cls-20 {
+                fill: url(#linear-gradient-5);
+              }
+
+              .cls-21 {
+                fill: url(#linear-gradient-6);
+              }
+
+              .cls-22 {
+                fill: url(#linear-gradient-7);
+              }
+
+              .cls-23 {
+                fill: url(#linear-gradient-8);
+              }
+
+              .cls-24 {
+                fill: url(#linear-gradient-9);
+              }
+
+              .cls-25, .cls-26, .cls-29, .cls-30, .cls-43, .cls-44, .cls-47, .cls-48, .cls-55, .cls-56 {
+                stroke-width: 0.91px;
+              }
+
+              .cls-25 {
+                fill: url(#radial-gradient);
+              }
+
+              .cls-26 {
+                fill: url(#radial-gradient-2);
+              }
+
+              .cls-27 {
+                fill: url(#radial-gradient-3);
+              }
+
+              .cls-28 {
+                fill: url(#radial-gradient-4);
+              }
+
+              .cls-29 {
+                fill: url(#radial-gradient-5);
+              }
+
+              .cls-30 {
+                fill: url(#radial-gradient-6);
+              }
+
+              .cls-31 {
+                fill: url(#radial-gradient-7);
+              }
+
+              .cls-32 {
+                fill: url(#radial-gradient-8);
+              }
+
+              .cls-33 {
+                opacity: 0.4;
+              }
+
+              .cls-34, .cls-36 {
+                opacity: 0.6;
+              }
+
+              .cls-35 {
+                fill: #666;
+              }
+
+              .cls-36 {
+                fill: none;
+              }
+
+              .cls-37 {
+                fill: url(#linear-gradient-10);
+              }
+
+              .cls-38 {
+                fill: url(#linear-gradient-11);
+              }
+
+              .cls-39 {
+                fill: url(#linear-gradient-12);
+              }
+
+              .cls-40 {
+                fill: url(#linear-gradient-13);
+              }
+
+              .cls-41 {
+                fill: url(#linear-gradient-14);
+              }
+
+              .cls-42 {
+                fill: url(#linear-gradient-15);
+              }
+
+              .cls-43 {
+                fill: url(#radial-gradient-9);
+              }
+
+              .cls-44 {
+                fill: url(#radial-gradient-10);
+              }
+
+              .cls-45 {
+                fill: url(#radial-gradient-11);
+              }
+
+              .cls-46 {
+                fill: url(#radial-gradient-12);
+              }
+
+              .cls-47 {
+                fill: url(#radial-gradient-13);
+              }
+
+              .cls-48 {
+                fill: url(#radial-gradient-14);
+              }
+
+              .cls-49 {
+                fill: url(#radial-gradient-15);
+              }
+
+              .cls-50 {
+                fill: url(#radial-gradient-16);
+              }
+
+              .cls-51, .cls-52 {
+                stroke-width: 0.91px;
+              }
+
+              .cls-51 {
+                fill: url(#radial-gradient-17);
+              }
+
+              .cls-52 {
+                fill: url(#radial-gradient-18);
+              }
+
+              .cls-53 {
+                fill: url(#radial-gradient-19);
+              }
+
+              .cls-54 {
+                fill: url(#radial-gradient-20);
+              }
+
+              .cls-55 {
+                fill: url(#radial-gradient-21);
+              }
+
+              .cls-56 {
+                fill: url(#radial-gradient-22);
+              }
+
+              .cls-57 {
+                fill: url(#radial-gradient-23);
+              }
+
+              .cls-58 {
+                fill: url(#radial-gradient-24);
+              }
+            </style>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, -28, 0)">
+    <g transform="matrix(1, 0, 0, 1, 81.454948, 0)">
+      <rect class="cls-21" x="246.957" y="215.667" width="126.004" height="67.504" rx="33.4" ry="33.4" transform="matrix(0, -1, 1, 0, 83.132321, 437.625671)"/>
+      <rect class="cls-22" x="252.018" y="220.169" width="115.882" height="58.5" rx="29.82" ry="29.82" transform="matrix(0, -1, 1, 0, 83.132385, 437.625763)"/>
+      <g transform="matrix(1, 0, 0, 1, 0.745581, 0)">
+        <circle class="cls-23" cx="281.641" cy="248.673" r="25.503" transform="matrix(0, -1, 1, 0, 83.132812, 437.625656)"/>
+        <circle class="cls-6" cx="281.641" cy="248.673" r="18.146" transform="matrix(0, -0.999999, 1, 0, 83.132721, 437.625214)"/>
+        <circle class="cls-32" cx="287.13" cy="253.52" r="13.76" transform="matrix(0, -0.980884, 0.980883, 0, 83.132523, 437.625977)"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 0.745581, 0)">
+        <circle class="cls-24" cx="337.895" cy="248.673" r="25.503" transform="matrix(0, -1, 1.000001, 0, 83.132664, 437.62558)"/>
+        <circle class="cls-6" cx="281.641" cy="248.673" r="18.146" transform="matrix(0, -0.999999, 1, 0, 83.133255, 381.371704)"/>
+        <circle class="cls-32" cx="287.13" cy="253.52" r="13.76" transform="matrix(0, -0.980884, 0.980883, 0, 83.133057, 381.372467)"/>
+      </g>
+    </g>
+    <rect class="cls-36" x="200.679" y="262.171" width="36.705" height="19.529" rx="9.7" ry="9.7" transform="matrix(0, -1, 1, 0, 163.587494, 437.625671)"/>
+    <rect class="cls-36" x="201.385" y="217.403" width="35.165" height="35.165" rx="7.2" ry="7.2" transform="matrix(-0.707106, -0.707107, 0.707107, -0.707106, 387.248605, 539.647209)"/>
+    <path class="cls-35" d="M 387.928 216.935 L 389.046 216.935 L 389.046 221.584 C 389.073 222.25 388.98 222.914 388.771 223.546 C 388.581 224.03 388.236 224.436 387.79 224.704 C 387.217 225.027 386.564 225.183 385.907 225.155 C 385.266 225.177 384.63 225.042 384.053 224.763 C 383.606 224.51 383.26 224.112 383.072 223.635 C 382.842 222.986 382.739 222.301 382.768 221.614 L 382.768 216.965 L 383.837 216.965 L 383.837 221.614 C 383.813 222.138 383.878 222.661 384.033 223.164 C 384.159 223.488 384.395 223.759 384.7 223.929 C 385.059 224.117 385.462 224.208 385.868 224.194 C 386.476 224.254 387.082 224.063 387.545 223.664 C 387.948 223.061 388.126 222.335 388.045 221.614 Z" transform="matrix(0, -1, 1, 0, 164.860305, 606.95349)"/>
+    <path class="cls-35" d="M 385.492 218.006 L 385.492 209.934 L 386.394 209.934 L 386.394 210.689 C 386.581 210.416 386.826 210.189 387.11 210.022 C 387.413 209.862 387.751 209.784 388.091 209.796 C 388.558 209.787 389.016 209.921 389.406 210.179 C 389.797 210.447 390.097 210.826 390.269 211.268 C 390.47 211.756 390.57 212.28 390.563 212.808 C 390.57 213.361 390.46 213.909 390.24 214.416 C 389.859 215.305 388.99 215.886 388.023 215.897 C 387.713 215.903 387.407 215.833 387.13 215.691 C 386.88 215.562 386.659 215.381 386.483 215.162 L 386.483 218.006 Z M 386.385 212.886 C 386.336 213.478 386.495 214.067 386.836 214.554 C 387.109 214.883 387.517 215.071 387.944 215.064 C 388.387 215.062 388.803 214.855 389.072 214.505 C 389.425 214.001 389.591 213.39 389.543 212.778 C 389.586 212.186 389.423 211.596 389.082 211.111 C 388.824 210.762 388.417 210.555 387.983 210.552 C 387.54 210.563 387.127 210.781 386.865 211.14 C 386.52 211.635 386.353 212.234 386.394 212.837 Z" transform="matrix(0, -1, 1, 0, 174.127251, 601.928045)"/>
+    <path class="cls-35" d="M 407.35 225.543 L 407.35 217.49 L 410.126 217.49 C 410.607 217.479 411.086 217.518 411.558 217.608 C 411.992 217.702 412.396 217.901 412.735 218.187 C 413.176 218.551 413.515 219.024 413.716 219.56 C 413.942 220.189 414.047 220.855 414.03 221.522 C 414.038 222.072 413.965 222.621 413.814 223.15 C 413.698 223.571 413.512 223.968 413.265 224.327 C 413.065 224.611 412.816 224.857 412.529 225.053 C 412.229 225.244 411.896 225.381 411.548 225.455 C 411.123 225.552 410.689 225.598 410.253 225.592 Z M 408.419 224.562 L 410.136 224.562 C 410.557 224.577 410.976 224.527 411.381 224.415 C 411.654 224.335 411.902 224.19 412.107 223.994 C 412.375 223.716 412.577 223.381 412.696 223.013 C 412.849 222.51 412.921 221.988 412.912 221.463 C 412.955 220.784 412.813 220.105 412.5 219.501 C 412.282 219.098 411.938 218.777 411.519 218.589 C 411.071 218.456 410.603 218.4 410.136 218.422 L 408.439 218.422 Z" transform="matrix(0, -1, 1, 0, 189.150552, 632.231229)"/>
+    <path class="cls-35" d="M 409.302 217.647 L 409.302 211.762 L 410.195 211.762 L 410.195 212.596 C 410.594 211.961 411.3 211.587 412.048 211.615 C 412.385 211.609 412.719 211.673 413.029 211.801 C 413.29 211.904 413.518 212.078 413.687 212.301 C 413.838 212.519 413.942 212.767 413.991 213.027 C 414.039 213.352 414.058 213.681 414.049 214.008 L 414.049 217.647 L 413.069 217.647 L 413.069 214.096 C 413.081 213.791 413.042 213.486 412.951 213.194 C 412.87 212.993 412.726 212.824 412.539 212.713 C 412.331 212.593 412.094 212.531 411.852 212.537 C 411.452 212.53 411.064 212.673 410.764 212.939 C 410.403 213.358 410.235 213.91 410.303 214.459 L 410.303 217.647 Z" transform="matrix(0, -1, 1, 0, 197.046291, 626.306854)"/>
+    <path class="cls-35" d="M 395.169 237.677 L 395.169 229.624 L 396.239 229.624 L 396.239 236.725 L 400.162 236.725 L 400.162 237.706 Z" transform="matrix(0, -1, 1, 0, 164.000506, 631.330488)"/>
+    <path class="cls-35" d="M 431.256 233.4 L 434.346 225.347 L 435.494 225.347 L 438.789 233.4 L 437.573 233.4 L 436.592 230.958 L 433.228 230.958 L 432.345 233.4 Z M 433.581 230.095 L 436.308 230.095 L 435.464 227.868 C 435.209 227.215 435.02 226.659 434.895 226.201 C 434.792 226.724 434.647 227.239 434.464 227.741 Z" transform="matrix(0, -1, 1, 0, 205.64901, 664.396035)"/>
+    <path class="cls-35" d="M 431.986 211.836 L 431.986 203.783 L 435.007 203.783 C 435.512 203.765 436.016 203.848 436.488 204.029 C 436.85 204.184 437.155 204.448 437.361 204.784 C 437.565 205.1 437.674 205.468 437.675 205.843 C 437.675 206.191 437.577 206.531 437.391 206.824 C 437.187 207.146 436.893 207.402 436.547 207.56 C 436.992 207.673 437.388 207.928 437.675 208.286 C 437.938 208.636 438.076 209.065 438.067 209.502 C 438.07 209.865 437.99 210.225 437.832 210.552 C 437.698 210.846 437.497 211.105 437.243 211.307 C 436.979 211.498 436.679 211.635 436.361 211.709 C 435.933 211.808 435.495 211.854 435.056 211.846 Z M 433.055 207.167 L 434.742 207.167 C 435.072 207.176 435.401 207.143 435.723 207.069 C 435.968 207.008 436.185 206.866 436.341 206.667 C 436.484 206.46 436.556 206.212 436.547 205.961 C 436.551 205.712 436.483 205.467 436.351 205.255 C 436.225 205.052 436.03 204.903 435.802 204.833 C 435.399 204.743 434.987 204.706 434.575 204.725 L 432.967 204.725 Z M 433.055 210.885 L 435.017 210.885 C 435.258 210.904 435.501 210.904 435.743 210.885 C 435.96 210.853 436.17 210.779 436.361 210.669 C 436.532 210.556 436.671 210.401 436.763 210.218 C 436.872 210.009 436.926 209.777 436.92 209.541 C 436.925 209.262 436.842 208.987 436.684 208.757 C 436.529 208.534 436.306 208.368 436.047 208.286 C 435.663 208.182 435.267 208.136 434.87 208.148 L 433.006 208.148 Z" transform="matrix(0, -1, 1, 0, 227.212951, 642.84043)"/>
+    <path class="cls-35" d="M 394.128 207.223 L 394.128 199.17 L 397.669 199.17 C 398.223 199.146 398.777 199.219 399.307 199.386 C 399.682 199.532 399.996 199.802 400.199 200.151 C 400.422 200.517 400.538 200.939 400.533 201.368 C 400.545 201.903 400.344 202.422 399.974 202.809 C 399.503 203.246 398.898 203.509 398.257 203.555 C 398.491 203.658 398.708 203.793 398.905 203.957 C 399.242 204.275 399.539 204.634 399.787 205.026 L 401.19 207.214 L 399.846 207.214 L 398.816 205.526 C 398.502 205.042 398.247 204.673 398.051 204.418 C 397.901 204.21 397.72 204.028 397.512 203.879 C 397.362 203.779 397.196 203.705 397.021 203.663 C 396.825 203.644 396.628 203.644 396.433 203.663 L 395.197 203.663 L 395.197 207.243 Z M 395.197 202.721 L 397.492 202.721 C 397.883 202.742 398.274 202.695 398.65 202.584 C 398.907 202.498 399.128 202.329 399.277 202.103 C 399.42 201.887 399.494 201.635 399.493 201.377 C 399.517 201.004 399.364 200.641 399.081 200.396 C 398.702 200.119 398.236 199.986 397.767 200.024 L 395.216 200.024 Z" transform="matrix(0, -1, 1, 0, 194.454733, 600.86328)"/>
+    <path class="cls-35" d="M 350.122 76.67 L 350.122 68.617 L 351.192 68.617 L 351.192 76.67 Z" transform="matrix(0, -1, 1, 0, 278.0135, 423.300486)"/>
+    <path class="cls-35" d="M 349.132 73.825 L 351.466 65.498 L 352.261 65.498 L 349.926 73.825 Z" transform="matrix(0, -1, 1, 0, 281.034982, 420.357984)"/>
+    <path class="cls-35" d="M 347.969 68.582 L 347.969 60.529 L 353.403 60.529 L 353.403 61.51 L 349.038 61.51 L 349.038 64.002 L 352.815 64.002 L 352.815 64.983 L 349.038 64.983 L 349.038 68.641 Z" transform="matrix(0, -1, 1, 0, 286.100996, 415.270995)"/>
+    <path class="cls-35" d="M 359.446 79.786 L 359.446 71.733 L 362.486 71.733 C 362.896 71.725 363.307 71.752 363.712 71.811 C 364.063 71.862 364.398 71.99 364.693 72.184 C 364.973 72.381 365.197 72.649 365.341 72.959 C 365.778 73.902 365.616 75.014 364.929 75.794 C 364.273 76.346 363.418 76.604 362.565 76.51 L 360.495 76.51 L 360.495 79.786 Z M 360.515 75.558 L 362.594 75.558 C 363.115 75.609 363.636 75.474 364.066 75.176 C 364.363 74.898 364.521 74.503 364.497 74.097 C 364.506 73.79 364.417 73.487 364.242 73.234 C 364.08 73.001 363.84 72.834 363.565 72.763 C 363.243 72.705 362.913 72.681 362.584 72.694 L 360.525 72.694 Z" transform="matrix(0, -1, 1, 0, 286.756112, 438.273753)"/>
+    <path class="cls-35" d="M 362.025 75.135 L 362.025 67.082 L 363.006 67.082 L 363.006 75.135 Z" transform="matrix(0, -1, 1, 0, 291.407007, 433.624019)"/>
+    <path class="cls-35" d="M 365.112 69.018 C 364.799 69.295 364.44 69.518 364.053 69.675 C 363.705 69.806 363.336 69.872 362.964 69.871 C 362.429 69.908 361.899 69.739 361.483 69.4 C 361.142 69.097 360.951 68.66 360.963 68.204 C 360.959 67.929 361.027 67.659 361.159 67.419 C 361.295 67.202 361.479 67.021 361.699 66.889 C 361.917 66.743 362.16 66.633 362.415 66.566 C 362.705 66.498 363 66.449 363.298 66.419 C 363.896 66.364 364.487 66.248 365.063 66.075 C 365.063 65.938 365.063 65.85 365.063 65.82 C 365.096 65.508 364.992 65.197 364.779 64.967 C 364.456 64.722 364.055 64.603 363.651 64.633 C 363.29 64.607 362.93 64.692 362.621 64.879 C 362.364 65.102 362.191 65.406 362.13 65.742 L 361.149 65.614 C 361.217 65.259 361.365 64.924 361.581 64.633 C 361.811 64.359 362.114 64.155 362.454 64.045 C 362.88 63.901 363.328 63.831 363.778 63.839 C 364.19 63.826 364.602 63.885 364.995 64.015 C 365.257 64.101 365.494 64.253 365.681 64.457 C 365.835 64.655 365.939 64.886 365.985 65.134 C 366.026 65.436 366.043 65.741 366.034 66.046 L 366.034 67.36 C 366.018 67.943 366.037 68.525 366.093 69.106 C 366.138 69.35 366.225 69.586 366.348 69.803 L 365.318 69.803 C 365.2 69.556 365.129 69.291 365.112 69.018 Z M 365.034 66.811 C 364.51 66.996 363.967 67.122 363.415 67.184 C 363.121 67.215 362.831 67.281 362.552 67.38 C 362.391 67.446 362.254 67.558 362.16 67.703 C 361.925 68.066 361.992 68.546 362.317 68.832 C 362.566 69.023 362.876 69.117 363.19 69.096 C 363.532 69.098 363.869 69.014 364.171 68.851 C 364.456 68.697 364.687 68.457 364.828 68.165 C 364.948 67.853 365.001 67.518 364.985 67.184 Z" transform="matrix(0, -1, 1, 0, 296.798599, 430.511856)"/>
+    <path class="cls-35" d="M 363.939 65.168 L 364.086 66.041 C 363.842 66.096 363.592 66.125 363.341 66.129 C 363.053 66.146 362.767 66.088 362.507 65.962 C 362.322 65.861 362.174 65.703 362.085 65.511 C 361.982 65.132 361.942 64.736 361.967 64.344 L 361.967 60.989 L 361.242 60.989 L 361.242 60.264 L 361.918 60.264 L 361.918 58.822 L 362.899 58.233 L 362.899 60.264 L 363.88 60.264 L 363.88 61.029 L 362.899 61.029 L 362.899 64.442 C 362.889 64.624 362.904 64.805 362.948 64.982 C 362.982 65.063 363.041 65.132 363.115 65.178 C 363.219 65.23 363.334 65.253 363.449 65.246 C 363.614 65.233 363.778 65.207 363.939 65.168 Z" transform="matrix(0, -1, 1, 0, 300.481563, 424.84646)"/>
+    <path class="cls-35" d="M 365.312 58.773 L 366.293 58.9 C 366.163 59.453 365.848 59.944 365.401 60.293 C 364.915 60.637 364.329 60.81 363.733 60.783 C 362.976 60.823 362.237 60.537 361.703 59.999 C 361.171 59.39 360.9 58.598 360.947 57.792 C 360.895 56.961 361.166 56.143 361.703 55.506 C 362.209 54.965 362.924 54.669 363.664 54.692 C 364.387 54.668 365.086 54.957 365.577 55.487 C 366.107 56.111 366.374 56.916 366.323 57.733 C 366.323 57.792 366.323 57.88 366.323 57.998 L 361.967 57.998 C 361.965 58.537 362.156 59.06 362.507 59.469 C 362.822 59.804 363.264 59.99 363.723 59.979 C 364.057 59.99 364.384 59.89 364.655 59.695 C 364.963 59.461 365.192 59.139 365.312 58.773 Z M 362.066 57.174 L 365.312 57.174 C 365.303 56.775 365.174 56.389 364.94 56.065 C 364.642 55.695 364.189 55.485 363.713 55.496 C 363.286 55.485 362.871 55.647 362.566 55.948 C 362.249 56.274 362.067 56.709 362.056 57.164 Z" transform="matrix(0, -1, 1, 0, 305.896243, 421.373561)"/>
+    <line class="cls-36" x1="353.953" y1="51.348" x2="362.947" y2="51.348" transform="matrix(0, -1, 1, 0, 307.102012, 409.798009)"/>
+    <g transform="matrix(1, 0, 0, 1, 80.454948, 0.23311)">
+      <rect class="cls-37" x="247.085" y="68.799" width="126.22" height="126.22" rx="25.83" ry="25.83" transform="matrix(-0.707107, -0.707107, 0.707107, -0.707107, 341.105084, 440.048408)"/>
+      <rect class="cls-38" x="252.98" y="74.694" width="114.44" height="114.44" rx="23.42" ry="23.42" transform="matrix(-0.707107, -0.707107, 0.707107, -0.707107, 341.104973, 440.05547)"/>
+      <g transform="matrix(1, 0, 0, 1, -0.886735, 0)">
+        <g>
+          <circle class="cls-39" cx="351.402" cy="132.792" r="25.503" transform="matrix(0, -1, 1, 0, 83.132513, 437.625732)"/>
+          <circle class="cls-6" cx="281.641" cy="248.673" r="18.146" transform="matrix(0, -0.999999, 1, 0, -32.748432, 367.86441)"/>
+          <circle class="cls-32" cx="287.13" cy="253.52" r="13.76" transform="matrix(0, -0.980884, 0.980883, 0, -32.748631, 367.865173)"/>
+        </g>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 0, -0.419313)">
+        <circle class="cls-41" cx="309.773" cy="92.291" r="25.503" transform="matrix(0, -0.999999, 1, 0, 83.132477, 437.62561)"/>
+        <circle class="cls-6" cx="281.641" cy="248.673" r="18.146" transform="matrix(0, -0.999999, 1, 0, -73.249519, 409.493591)"/>
+        <circle class="cls-32" cx="287.13" cy="253.52" r="13.76" transform="matrix(0, -0.980884, 0.980883, 0, -73.249718, 409.49411)"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -0.886735, 0)">
+        <circle class="cls-40" cx="276.81" cy="134.23" r="26" transform="matrix(0, -0.980884, 0.980883, 0, 84.260658, 437.626007)"/>
+        <circle class="cls-6" cx="276.81" cy="134.23" r="18.5" transform="matrix(0, -0.980884, 0.980883, 0, 84.260658, 437.625916)"/>
+        <circle class="cls-46" cx="276.81" cy="134.23" r="13.76" transform="matrix(0, -0.980884, 0.980883, 0, 84.260658, 437.626007)"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 0, -0.419313)">
+        <circle class="cls-42" cx="309.773" cy="172.165" r="25.503" transform="matrix(0, -0.999999, 1, 0, 83.132538, 437.62561)"/>
+        <circle class="cls-6" cx="281.641" cy="248.673" r="18.146" transform="matrix(0, -0.999999, 1, 0, 6.624532, 409.493591)"/>
+        <circle class="cls-32" cx="287.13" cy="253.52" r="13.76" transform="matrix(0, -0.980884, 0.980883, 0, 6.624333, 409.494354)"/>
+      </g>
+    </g>
+  </g>
+</svg>

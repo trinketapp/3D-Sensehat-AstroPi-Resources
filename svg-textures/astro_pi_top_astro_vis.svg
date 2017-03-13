@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="71 230 26.8 134" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="linear-gradient" x1="25.05" y1="165.97" x2="222.33" y2="165.97" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#acacac"/>
+      <stop offset="1" stop-color="#b0b0b0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="47.31" y1="150.39" x2="205.85" y2="150.39" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b3b3b3"/>
+      <stop offset="1" stop-color="#ccc"/>
+    </linearGradient>
+    <style type="text/css">
+                    .hide {
+                      display: none
+                    }
+
+                    .leds, /* grunt-remove */
+                    .rled, /* grunt-remove */
+                    .gled, /* grunt-remove */
+                    .bled { /* grunt-remove */
+                      mix-blend-mode: screen; /* grunt-remove */
+                    } /* grunt-remove */
+
+                    /*Stop blending for off and kled*/ /* grunt-remove */
+                    .kled, /* grunt-remove */
+                    .oled { /* grunt-remove */
+                      mix-blend-mode: normal; /* grunt-remove */
+                    } /* grunt-remove */
+                    /*Colored LEDs should glow*/
+
+                    .rled,
+                    .gled,
+                    .bled {
+                      filter: url(#glow);
+                    }
+                    /* Rectangles under the LEDs */
+
+                    .ledrect {
+                      filter: url(#shadow);
+                      fill: url(#ledrect);
+                    }
+
+                    .st0 {
+                      fill: #309A5D;
+                      stroke: #004537;
+                      stroke-width: 2.1959;
+                      stroke-miterlimit: 10;
+                    }
+
+                    .st1 {
+                      opacity: 0.15;
+                    }
+
+                    .st2 {
+                      opacity: 0.15;
+                      enable-background: new;
+                    }
+
+                    .st3 {
+                      fill: url(#XMLID_8_);
+                    }
+
+                    .st4 {
+                      opacity: 0.33;
+                      clip-path: url(#SVGID_2_);
+                      fill: url(#SVGID_3_);
+                      enable-background: new;
+                    }
+
+                    .st5 {
+                      opacity: 0.33;
+                      clip-path: url(#SVGID_5_);
+                      fill: url(#SVGID_6_);
+                      enable-background: new;
+                    }
+
+                    .st6 {
+                      fill: #4D4D4D;
+                      stroke: #333333;
+                      stroke-width: 1.0637;
+                      stroke-miterlimit: 10;
+                    }
+
+                    .st7 {
+                      fill: #20262E;
+                    }
+
+                    .st8 {
+                      fill: #B3B3B3;
+                    }
+
+                    .st9 {
+                      fill: none;
+                      stroke: #666666;
+                      stroke-width: 1.1067;
+                      stroke-miterlimit: 10;
+                    }
+
+                    .st10 {
+                      fill: none;
+                      stroke: #666666;
+                      stroke-width: 1.0637;
+                      stroke-miterlimit: 10;
+                    }
+
+                    .st11 {
+                      fill: none;
+                      stroke: #666666;
+                      stroke-width: 2.4169;
+                      stroke-miterlimit: 10;
+                    }
+
+                    .st12 {
+                      fill: #E6E6E6;
+                    }
+
+                    .st13 {
+                      clip-path: url(#SVGID_8_);
+                      fill: #FFFFFF;
+                      fill-opacity: 0.25;
+                    }
+
+                    .st14 {
+                      clip-path: url(#SVGID_10_);
+                      fill: #FFFFFF;
+                      fill-opacity: 0.25;
+                    }
+
+                    .st15 {
+                      fill: none;
+                      stroke: #666666;
+                      stroke-width: 1.1336;
+                      stroke-miterlimit: 10;
+                    }
+
+                    .st16 {
+                      clip-path: url(#SVGID_12_);
+                      fill: #FFFFFF;
+                      fill-opacity: 0.25;
+                    }
+
+                    .st17 {
+                      clip-path: url(#SVGID_14_);
+                      fill: #FFFFFF;
+                      fill-opacity: 0.25;
+                    }
+
+                    .st18 {
+                      clip-path: url(#SVGID_16_);
+                      fill: #FFFFFF;
+                      fill-opacity: 0.25;
+                    }
+
+                    .st19 {
+                      clip-path: url(#SVGID_18_);
+                      fill: #FFFFFF;
+                      fill-opacity: 0.25;
+                    }
+
+                    .st20 {
+                      fill: none;
+                      stroke: #FFDB13;
+                      stroke-width: 5.8236;
+                      stroke-miterlimit: 10;
+                    }
+
+                    .st21 {
+                      fill: none;
+                      stroke: #FFDB13;
+                      stroke-width: 5.6295;
+                      stroke-miterlimit: 10;
+                    }
+
+                    .st22 {
+                      fill: none;
+                      stroke: #FFDB13;
+                      stroke-width: 5.5324;
+                      stroke-miterlimit: 10;
+                    }
+
+                    .st23 {
+                      fill: #575756;
+                      stroke: #3C3C3B;
+                      stroke-width: 1.1099;
+                      stroke-miterlimit: 10;
+                    }
+
+                    .st24 {
+                      fill: #BDBEC2;
+                    }
+
+                    .st25 {
+                      fill: #575756;
+                      stroke: #3C3C3B;
+                      stroke-width: 0.2469;
+                      stroke-miterlimit: 10;
+                    }
+
+                    .st26 {
+                      fill: none;
+                      stroke: #FFDB13;
+                      stroke-width: 6.2377;
+                      stroke-miterlimit: 10;
+                    }
+
+                    .st27 {
+                      fill: #B3B3B3;
+                      stroke: #666666;
+                      stroke-width: 0.8999;
+                      stroke-miterlimit: 10;
+                    }
+
+                    .st28 {
+                      opacity: 0.25;
+                      fill: #FFFFFF;
+                      enable-background: new;
+                    }
+
+                    .st29 {
+                      fill: #333333;
+                    }
+
+                    .st30 {
+                      fill: #575756;
+                      stroke: #3C3C3B;
+                      stroke-width: 1.3186;
+                      stroke-miterlimit: 10;
+                    }
+
+                    .st31 {
+                      fill: #8E5F41;
+                    }
+
+                    .st32 {
+                      fill: #F29F6A;
+                    }
+
+                    .st33 {
+                      fill: #B89A5D;
+                    }
+
+                    .st34 {
+                      opacity: 0.4;
+                    }
+
+                    .st35 {
+                      fill: #575756;
+                    }
+
+                    .st36 {
+                      fill: #F5F5F5;
+                    }
+
+                    .st37 {
+                      fill: url(#bigrect);
+                    }
+
+                    .st38 {
+                      filter: url(#shadow);
+                      fill: url(#ledrect);
+                    }
+
+                    .st39 {
+                      opacity: 1;
+                      fill: black; /* grunt-replace-with fill: url(#ledrect); */
+                    }
+
+                    /*Ignore dark LED circles that turned into white rings on blend */
+                    .st40 {
+                      fill: #968E87;
+                      opacity: 0;
+                    }
+
+                    .st41 {
+                      opacity: 0.1;
+                      fill: #1D1D1B;
+                    }
+
+                    .st42 {
+                      opacity: 0.15;
+                      fill: #1D1D1B;
+                    }
+
+                    .st43 {
+                      fill: #3F3F3F;
+                      stroke: #333333;
+                      stroke-width: 1.9404;
+                      stroke-miterlimit: 10;
+                    }
+
+                    .st44 {
+                      fill: #484848;
+                      stroke: #333333;
+                      stroke-width: 1.8277;
+                      stroke-miterlimit: 10;
+                    }
+
+                    .st45 {
+                      opacity: 0.25;
+                      fill: #1D1D1B;
+                    }
+
+                    .st46 {
+                      fill: #414140;
+                      stroke: #333333;
+                      stroke-width: 1.7828;
+                      stroke-miterlimit: 10;
+                    }
+
+                    .st47 {
+                      fill: #484848;
+                      stroke: #333333;
+                      stroke-width: 2.1136;
+                      stroke-miterlimit: 10;
+                    }
+                  </style>
+    <style>
+              .cls-1 {
+                isolation: isolate;
+              }
+
+              .cls-2 {
+                fill: #ccc;
+              }
+
+              .cls-19, .cls-2, .cls-21, .cls-25, .cls-27, .cls-29, .cls-3, .cls-31, .cls-37, .cls-4, .cls-43, .cls-45, .cls-47, .cls-49, .cls-51, .cls-53, .cls-55, .cls-57 {
+                stroke: #999;
+              }
+
+              .cls-13, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-2, .cls-20, .cls-21, .cls-23, .cls-24, .cls-25, .cls-26, .cls-27, .cls-28, .cls-29, .cls-3, .cls-30, .cls-31, .cls-32, .cls-36, .cls-37, .cls-39, .cls-4, .cls-40, .cls-41, .cls-42, .cls-43, .cls-44, .cls-45, .cls-46, .cls-47, .cls-48, .cls-49, .cls-50, .cls-51, .cls-52, .cls-53, .cls-54, .cls-55, .cls-56, .cls-57, .cls-58, .cls-7 {
+                stroke-miterlimit: 10;
+              }
+
+              .cls-15, .cls-19, .cls-2, .cls-20, .cls-21, .cls-23, .cls-24, .cls-27, .cls-28, .cls-31, .cls-32, .cls-36, .cls-37, .cls-39, .cls-4, .cls-40, .cls-41, .cls-42, .cls-45, .cls-46, .cls-49, .cls-50, .cls-53, .cls-54, .cls-57, .cls-58 {
+                stroke-width: 1.15px;
+              }
+
+              .cls-3 {
+                fill: #e6e6e6;
+              }
+
+              .cls-4 {
+                fill: url(#linear-gradient);
+              }
+
+              .cls-5 {
+                fill: url(#linear-gradient-2);
+              }
+
+              .cls-6 {
+                opacity: 0.2;
+                mix-blend-mode: darken;
+              }
+
+              .cls-7 {
+                stroke: #e1ccbc;
+                stroke-width: 1.64px;
+                fill: url(#linear-gradient-3);
+              }
+
+              .cls-14, .cls-8 {
+                opacity: 0.3;
+              }
+
+              .cls-8 {
+                mix-blend-mode: multiply;
+              }
+
+              .cls-9 {
+                fill: #ca8c33;
+              }
+
+              .cls-10, .cls-14 {
+                fill: #fff;
+              }
+
+              .cls-11 {
+                fill: #f6f6f6;
+              }
+
+              .cls-12 {
+                fill: #edd5bd;
+              }
+
+              .cls-13, .cls-15, .cls-16, .cls-17, .cls-18 {
+                fill: #c1272d;
+                stroke: #71272d;
+              }
+
+              .cls-13 {
+                stroke-width: 0.87px;
+              }
+
+              .cls-16 {
+                stroke-width: 0.89px;
+              }
+
+              .cls-17 {
+                stroke-width: 0.96px;
+              }
+
+              .cls-18 {
+                stroke-width: 1.05px;
+              }
+
+              .cls-19 {
+                fill: url(#linear-gradient-4);
+              }
+
+              .cls-20, .cls-23, .cls-24, .cls-26, .cls-28, .cls-30, .cls-32, .cls-36, .cls-39, .cls-40, .cls-41, .cls-42, .cls-44, .cls-46, .cls-48, .cls-50, .cls-52, .cls-54, .cls-56, .cls-58 {
+                stroke: #666;
+              }
+
+              .cls-20 {
+                fill: url(#linear-gradient-5);
+              }
+
+              .cls-21 {
+                fill: url(#linear-gradient-6);
+              }
+
+              .cls-22 {
+                fill: url(#linear-gradient-7);
+              }
+
+              .cls-23 {
+                fill: url(#linear-gradient-8);
+              }
+
+              .cls-24 {
+                fill: url(#linear-gradient-9);
+              }
+
+              .cls-25, .cls-26, .cls-29, .cls-30, .cls-43, .cls-44, .cls-47, .cls-48, .cls-55, .cls-56 {
+                stroke-width: 0.91px;
+              }
+
+              .cls-25 {
+                fill: url(#radial-gradient);
+              }
+
+              .cls-26 {
+                fill: url(#radial-gradient-2);
+              }
+
+              .cls-27 {
+                fill: url(#radial-gradient-3);
+              }
+
+              .cls-28 {
+                fill: url(#radial-gradient-4);
+              }
+
+              .cls-29 {
+                fill: url(#radial-gradient-5);
+              }
+
+              .cls-30 {
+                fill: url(#radial-gradient-6);
+              }
+
+              .cls-31 {
+                fill: url(#radial-gradient-7);
+              }
+
+              .cls-32 {
+                fill: url(#radial-gradient-8);
+              }
+
+              .cls-33 {
+                opacity: 0.4;
+              }
+
+              .cls-34, .cls-36 {
+                opacity: 0.6;
+              }
+
+              .cls-35 {
+                fill: #666;
+              }
+
+              .cls-36 {
+                fill: none;
+              }
+
+              .cls-37 {
+                fill: url(#linear-gradient-10);
+              }
+
+              .cls-38 {
+                fill: url(#linear-gradient-11);
+              }
+
+              .cls-39 {
+                fill: url(#linear-gradient-12);
+              }
+
+              .cls-40 {
+                fill: url(#linear-gradient-13);
+              }
+
+              .cls-41 {
+                fill: url(#linear-gradient-14);
+              }
+
+              .cls-42 {
+                fill: url(#linear-gradient-15);
+              }
+
+              .cls-43 {
+                fill: url(#radial-gradient-9);
+              }
+
+              .cls-44 {
+                fill: url(#radial-gradient-10);
+              }
+
+              .cls-45 {
+                fill: url(#radial-gradient-11);
+              }
+
+              .cls-46 {
+                fill: url(#radial-gradient-12);
+              }
+
+              .cls-47 {
+                fill: url(#radial-gradient-13);
+              }
+
+              .cls-48 {
+                fill: url(#radial-gradient-14);
+              }
+
+              .cls-49 {
+                fill: url(#radial-gradient-15);
+              }
+
+              .cls-50 {
+                fill: url(#radial-gradient-16);
+              }
+
+              .cls-51, .cls-52 {
+                stroke-width: 0.91px;
+              }
+
+              .cls-51 {
+                fill: url(#radial-gradient-17);
+              }
+
+              .cls-52 {
+                fill: url(#radial-gradient-18);
+              }
+
+              .cls-53 {
+                fill: url(#radial-gradient-19);
+              }
+
+              .cls-54 {
+                fill: url(#radial-gradient-20);
+              }
+
+              .cls-55 {
+                fill: url(#radial-gradient-21);
+              }
+
+              .cls-56 {
+                fill: url(#radial-gradient-22);
+              }
+
+              .cls-57 {
+                fill: url(#radial-gradient-23);
+              }
+
+              .cls-58 {
+                fill: url(#radial-gradient-24);
+              }
+            </style>
+  </defs>
+  <path class="cls-2" d="M393,297a14,14,0,0,0-14,14.32h0v56.77a9.7,9.7,0,0,1-9.7,9.7H25.92a9.7,9.7,0,0,1-9.7-9.7V26a9.7,9.7,0,0,1,9.7-9.7H369.23a9.7,9.7,0,0,1,9.7,9.7V85.31a14,14,0,0,0,14,14H415.4V297Z" transform="matrix(0, -1.0000009536743166, 1.0000009536743166, 0, 52.51148223876959, 441.40863037109375)"/>
+  <path class="cls-4" d="M52.57,168.38V71.47A22,22,0,0,1,74.5,49.55h126a22,22,0,0,1,21.88,21.88V181.66a21.36,21.36,0,0,1-21.44,21.58l-93-.48a18.46,18.46,0,0,0-18.56,18.46v29a32.12,32.12,0,0,1-32.12,32.12h0A32.12,32.12,0,0,1,25,250.27V222.44s-.29-19,18.35-33.15C50.28,182.31,52.57,176,52.57,168.38Z" transform="matrix(0, -1.0000009536743166, 1.0000009536743166, 0, 52.51148223876959, 441.40863037109375)"/>
+  <path class="cls-5" d="M96.63,195H201.58a4.27,4.27,0,0,0,4.27-4.27V63.62a4.27,4.27,0,0,0-4.27-4.27H78.89a4.27,4.27,0,0,0-4.27,4.27V172.27s.88,7.95-11.84,19.93-15.27,34-15.46,44c-.15,7.68,12.43,5.1,18.25,3.49A4.26,4.26,0,0,0,68.68,236C69.68,226.36,74.61,195,96.63,195Z" transform="matrix(0, -1.0000009536743166, 1.0000009536743166, 0, 52.51148223876959, 441.40863037109375)"/>
+  <path class="cls-35" d="M93,40.24l6.31-16.42h2.34l6.72,16.42h-2.48l-1.92-5H97.16l-1.8,5Zm4.74-6.74h5.57l-1.71-4.55q-.78-2.07-1.17-3.41a20.91,20.91,0,0,1-.88,3.14Z" transform="matrix(0, -1.0000009536743166, 1.0000009536743166, 0, 52.51148223876959, 441.40863037109375)"/>
+  <path class="cls-35" d="M108.63,36.69l2-.31a2.79,2.79,0,0,0,.94,1.84,3.26,3.26,0,0,0,2.15.64,3.15,3.15,0,0,0,2.06-.57,1.69,1.69,0,0,0,.67-1.33,1.23,1.23,0,0,0-.59-1.08,8.75,8.75,0,0,0-2.06-.68,18.76,18.76,0,0,1-3.07-1A2.94,2.94,0,0,1,109,31.5a3.07,3.07,0,0,1,.36-1.47,3.26,3.26,0,0,1,1-1.13,4.16,4.16,0,0,1,1.28-.59,6.09,6.09,0,0,1,1.74-.24,6.89,6.89,0,0,1,2.46.4,3.34,3.34,0,0,1,1.56,1.09,4.27,4.27,0,0,1,.69,1.84l-2,.27a2.15,2.15,0,0,0-.78-1.43,2.85,2.85,0,0,0-1.82-.52,3.3,3.3,0,0,0-2,.46,1.34,1.34,0,0,0-.59,1.08,1.11,1.11,0,0,0,.25.71,1.77,1.77,0,0,0,.77.54q.3.11,1.78.52a24.81,24.81,0,0,1,3,.94A3,3,0,0,1,118,35a3,3,0,0,1,.48,1.73,3.38,3.38,0,0,1-.59,1.9,3.8,3.8,0,0,1-1.7,1.38,6.18,6.18,0,0,1-2.51.49,5.59,5.59,0,0,1-3.53-1A4.48,4.48,0,0,1,108.63,36.69Z" transform="matrix(0, -1.0000009536743166, 1.0000009536743166, 0, 52.51148223876959, 441.40863037109375)"/>
+  <path class="cls-35" d="M124.85,38.44l.29,1.78a7.47,7.47,0,0,1-1.52.18,3.45,3.45,0,0,1-1.7-.35,1.94,1.94,0,0,1-.85-.91,7.21,7.21,0,0,1-.25-2.38V29.91h-1.48V28.34h1.48V25.4l2-1.21v4.16h2v1.57h-2v7a3.52,3.52,0,0,0,.11,1.11.84.84,0,0,0,.35.39,1.34,1.34,0,0,0,.69.15A6.55,6.55,0,0,0,124.85,38.44Z" transform="matrix(0, -1.0000009536743166, 1.0000009536743166, 0, 52.51148223876959, 441.40863037109375)"/>
+  <path class="cls-35" d="M126.34,40.24V28.34h1.81v1.8a4.92,4.92,0,0,1,1.28-1.67,2.24,2.24,0,0,1,1.29-.4,3.93,3.93,0,0,1,2.07.65l-.69,1.87a2.88,2.88,0,0,0-1.48-.44,1.92,1.92,0,0,0-1.19.4,2.15,2.15,0,0,0-.75,1.1,7.87,7.87,0,0,0-.34,2.35v6.23Z" transform="matrix(0, -1.0000009536743166, 1.0000009536743166, 0, 52.51148223876959, 441.40863037109375)"/>
+  <path class="cls-35" d="M132.79,34.29a6.13,6.13,0,0,1,1.84-4.9,5.54,5.54,0,0,1,3.74-1.32,5.34,5.34,0,0,1,4,1.61,6.12,6.12,0,0,1,1.56,4.44,7.87,7.87,0,0,1-.69,3.61,4.87,4.87,0,0,1-2,2,5.84,5.84,0,0,1-2.87.73,5.35,5.35,0,0,1-4-1.6A6.4,6.4,0,0,1,132.79,34.29Zm2.07,0a5.07,5.07,0,0,0,1,3.42,3.32,3.32,0,0,0,5,0,5.19,5.19,0,0,0,1-3.48,4.91,4.91,0,0,0-1-3.34,3.32,3.32,0,0,0-5,0A5,5,0,0,0,134.86,34.29Z" transform="matrix(0, -1.0000009536743166, 1.0000009536743166, 0, 52.51148223876959, 441.40863037109375)"/>
+  <path class="cls-35" d="M146.1,40.24V23.82h6.19a15,15,0,0,1,2.5.16,5,5,0,0,1,2,.77,4,4,0,0,1,1.32,1.58,5.34,5.34,0,0,1-.83,5.79q-1.33,1.45-4.82,1.45h-4.21v6.68Zm2.17-8.61h4.25a4.5,4.5,0,0,0,3-.78,2.79,2.79,0,0,0,.88-2.21,3,3,0,0,0-.52-1.76,2.44,2.44,0,0,0-1.37-1,9.28,9.28,0,0,0-2-.15h-4.2Z" transform="matrix(0, -1.0000009536743166, 1.0000009536743166, 0, 52.51148223876959, 441.40863037109375)"/>
+  <path class="cls-35" d="M160.69,26.14V23.82h2v2.32Zm0,14.1V28.34h2v11.9Z" transform="matrix(0, -1.0000009536743166, 1.0000009536743166, 0, 52.51148223876959, 441.40863037109375)"/>
+  <path class="cls-35" d="M176.18,40.24l-6.36-16.42h2.35l4.27,11.93q.51,1.43.86,2.69.38-1.34.89-2.69l4.44-11.93h2.22l-6.43,16.42Z" transform="matrix(0, -1.0000009536743166, 1.0000009536743166, 0, 52.51148223876959, 441.40863037109375)"/>
+  <path class="cls-35" d="M185.67,26.14V23.82h2v2.32Zm0,14.1V28.34h2v11.9Z" transform="matrix(0, -1.0000009536743166, 1.0000009536743166, 0, 52.51148223876959, 441.40863037109375)"/>
+  <path class="cls-35" d="M189.49,36.69l2-.31a2.79,2.79,0,0,0,.94,1.84,3.26,3.26,0,0,0,2.15.64,3.15,3.15,0,0,0,2.06-.57A1.69,1.69,0,0,0,197.3,37a1.23,1.23,0,0,0-.59-1.08,8.75,8.75,0,0,0-2.06-.68,18.76,18.76,0,0,1-3.07-1,2.94,2.94,0,0,1-1.74-2.73,3.07,3.07,0,0,1,.36-1.47,3.26,3.26,0,0,1,1-1.13,4.16,4.16,0,0,1,1.28-.59,6.09,6.09,0,0,1,1.74-.24,6.89,6.89,0,0,1,2.46.4,3.34,3.34,0,0,1,1.56,1.09,4.27,4.27,0,0,1,.69,1.84l-2,.27a2.15,2.15,0,0,0-.78-1.43,2.85,2.85,0,0,0-1.82-.52,3.3,3.3,0,0,0-2,.46,1.34,1.34,0,0,0-.59,1.08A1.11,1.11,0,0,0,192,32a1.77,1.77,0,0,0,.77.54q.3.11,1.78.52a24.81,24.81,0,0,1,3,.94A3,3,0,0,1,198.89,35a3,3,0,0,1,.48,1.73,3.38,3.38,0,0,1-.59,1.9,3.8,3.8,0,0,1-1.7,1.38,6.18,6.18,0,0,1-2.51.49,5.59,5.59,0,0,1-3.53-1A4.48,4.48,0,0,1,189.49,36.69Z" transform="matrix(0, -1.0000009536743166, 1.0000009536743166, 0, 52.51148223876959, 441.40863037109375)"/>
+</svg>
